@@ -6,7 +6,6 @@ import net.minecraft.block.Block;
 import net.minecraft.block.CropBlock;
 import net.minecraft.block.enums.BlockFace;
 import net.minecraft.data.client.*;
-import net.minecraft.item.Item;
 import net.minecraft.state.property.Properties;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.Direction;
@@ -14,9 +13,6 @@ import rearth.oritech.Oritech;
 import rearth.oritech.init.BlockContent;
 import rearth.oritech.init.ItemContent;
 import rearth.oritech.init.ToolsContent;
-
-import java.util.HashSet;
-import java.util.Set;
 
 public class ModelGenerator extends FabricModelProvider {
     
@@ -135,6 +131,21 @@ public class ModelGenerator extends FabricModelProvider {
         blockStateModelGenerator.blockStateCollector.accept(createWallMountedState(BlockContent.CEILING_LIGHT_HANGING));
         blockStateModelGenerator.blockStateCollector.accept(createButtonBlockState(BlockContent.TECH_BUTTON, Identifier.of(Oritech.MOD_ID, "block/tech_button"), Identifier.of(Oritech.MOD_ID, "block/tech_button_on")));
         registerLever(BlockContent.TECH_LEVER, blockStateModelGenerator);
+        
+        blockStateModelGenerator.registerSimpleCubeAll(BlockContent.STEEL_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(BlockContent.ENERGITE_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(BlockContent.NICKEL_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(BlockContent.BIOSTEEL_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(BlockContent.PLATINUM_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(BlockContent.ADAMANT_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(BlockContent.ELECTRUM_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(BlockContent.DURATIUM_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(BlockContent.BIOMASS_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(BlockContent.PLASTIC_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(BlockContent.FLUXITE_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(BlockContent.SILICON_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(BlockContent.RAW_NICKEL_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(BlockContent.RAW_PLATINUM_BLOCK);
         
         var machinePlatingPool = blockStateModelGenerator.registerCubeAllModelTexturePool(BlockContent.MACHINE_PLATING_BLOCK);
         machinePlatingPool.stairs(BlockContent.MACHINE_PLATING_STAIRS);
