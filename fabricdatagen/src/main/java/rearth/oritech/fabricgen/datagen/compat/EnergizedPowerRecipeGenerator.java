@@ -182,7 +182,7 @@ public class EnergizedPowerRecipeGenerator {
             new AssemblingMachineRecipe.IngredientWithCount[]{
                 new AssemblingMachineRecipe.IngredientWithCount(Ingredient.ofItems(ItemContent.FLUX_GATE), 1),
                 new AssemblingMachineRecipe.IngredientWithCount(Ingredient.fromTag(TagContent.WIRES), 1),
-                new AssemblingMachineRecipe.IngredientWithCount(Ingredient.ofItems(ItemContent.DUBIOS_CONTAINER), 1),
+                new AssemblingMachineRecipe.IngredientWithCount(Ingredient.ofItems(ItemContent.dubious_CONTAINER), 1),
                 new AssemblingMachineRecipe.IngredientWithCount(Ingredient.ofItems(ItemContent.ENERGITE_INGOT), 1)},
             new ItemStack(BlockContent.SUPERCONDUCTOR.asItem()), "superconductor");
     }

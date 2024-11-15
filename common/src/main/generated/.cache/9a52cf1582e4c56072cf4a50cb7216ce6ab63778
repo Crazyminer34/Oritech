@@ -361,7 +361,7 @@ a3947e0f00d57a5db89a2601a4069e8e6df101ca data\oritech\recipe\pulverizer\dust\qua
 9aedd9cfb36d9bd904895e5fdb4121675717c980 data\oritech\recipe\crafting\alloy\steel.json
 c2d48096dfd2a5e72118c4bf776e9c3aabfea4a9 data\oritech\advancement\recipes\misc\nickel_clump.json
 773141fb24fd152024a23aa7e3852ff95b62d16f data\oritech\recipe\steamgen\steameng.json
-7c3ac7f98c3841d83c6d0a6ca0cbbbf3ad7a17a1 data\oritech\advancement\recipes\misc\motor\dubios.json
+7c3ac7f98c3841d83c6d0a6ca0cbbbf3ad7a17a1 data\oritech\advancement\recipes\misc\motor\dubious.json
 796f0d20a61dfb30a9d766599fff30838e3d2183 data\oritech\advancement\recipes\misc\nickel_ingot_from_smelting_nickel_dust.json
 29357e7e6dfd62cd166c914b6f97683113b6bcd8 data\oritech\advancement\recipes\building_blocks\crafting\slab\nickel.json
 1b8f1fe3f15f0dee900e97bd89365c5b7ac8c728 data\oritech\recipe\grinder\dust\compat\techreborn\lead_ore.json
@@ -456,7 +456,7 @@ e745d7829ba85a2ed6288f7c1da59111ee4e1b1b data\oritech\recipe\compat\techreborn\g
 3b25d733ad9992e94047a10195152203d8452add data\oritech\recipe\crafting\hanginglight.json
 3a541b7debb3daf940f9fa437b413e536baeb80f data\oritech\recipe\assembler\book.json
 f6533f0d2d1467329c1e78970b035a68035d25d6 data\oritech\recipe\nickel_clump.json
-7d5b2d6c83c0b740770d0f6b1e34f8ceb2b2dfa5 data\oritech\recipe\motor\dubios.json
+7d5b2d6c83c0b740770d0f6b1e34f8ceb2b2dfa5 data\oritech\recipe\motor\dubious.json
 32c35cec79d7a996b2fbc70416516a28a25b736f data\oritech\recipe\motor\advbattery.json
 ab0d8ce4de57afb2971ec1410ad239843f9f46c5 data\oritech\advancement\recipes\misc\energite_ingot_from_blasting_energite_dust.json
 b3b8ab514c47c6a9f546f161372690cf6121671f data\oritech\recipe\grinder\dust\compat\techreborn\pyrite_ore.json
