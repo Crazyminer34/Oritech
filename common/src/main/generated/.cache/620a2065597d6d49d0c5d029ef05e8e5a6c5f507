@@ -1,4 +1,4 @@
-// 1.21.1	2024-11-15T19:21:53.9454662	Oritech/Tags for minecraft:block
+// 1.21.1	2024-11-15T22:23:14.6216787	Oritech/Tags for minecraft:block
 d444197bfa15ab91774548ca604f9905ab61c596 data\oritech\tags\block\mineable\drill.json
 50f40da8dc75281783431d102df4c03a64d658ad data\oritech\tags\block\mineable\cutter_leaves.json
 d5c2fc7bd2d212f5b7cb0d39c6aa12f7c9cdf7a5 data\oritech\tags\block\mineable\cutter_logs.json
@@ -7,5 +7,5 @@ bfa1ef12ecd511922700f0a86281c70058ebb0d4 data\oritech\tags\block\laser_passthrou
 b410e66b7787a18c9100d2753a9a9cb303034b55 data\c\tags\block\ores.json
 4d1703385c7aa74f453c913e85d6533af9243af8 data\minecraft\tags\block\needs_stone_tool.json
 967cc2f83983a364a5e3dcea16ac984ec53c55ad data\minecraft\tags\block\needs_iron_tool.json
-c9abe17c5ebc4db2beb1e5d30a249819dcc60aaf data\minecraft\tags\block\mineable\pickaxe.json
+d9c6940ddcbd02f021548440dc9d77a4f9a09d91 data\minecraft\tags\block\mineable\pickaxe.json
 c82eb57b49aa9dbc9c884fef821fcffc49c78f6c data\oritech\tags\block\resource_nodes.json

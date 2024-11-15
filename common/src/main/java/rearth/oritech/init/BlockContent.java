@@ -9,6 +9,7 @@ import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import rearth.oritech.Oritech;
 import rearth.oritech.block.blocks.MachineCoreBlock;
@@ -270,6 +271,34 @@ public class BlockContent implements ArchitecturyBlockRegistryContainer {
     public static final Block TECH_DOOR = new TechDoorBlock(AbstractBlock.Settings.copy(Blocks.IRON_DOOR).strength(8f));
     @NoBlockItem
     public static final Block TECH_DOOR_HINGE = new TechDoorBlockHinge(AbstractBlock.Settings.copy(Blocks.IRON_DOOR).strength(8f));
+    @ItemContent.ItemGroupTarget(ItemContent.Groups.decorative)
+    public static final Block STEEL_BLOCK = new Block(AbstractBlock.Settings.copy(Blocks.IRON_BLOCK));
+    @ItemContent.ItemGroupTarget(ItemContent.Groups.decorative)
+    public static final Block ENERGITE_BLOCK = new Block(AbstractBlock.Settings.copy(Blocks.IRON_BLOCK));
+    @ItemContent.ItemGroupTarget(ItemContent.Groups.decorative)
+    public static final Block NICKEL_BLOCK = new Block(AbstractBlock.Settings.copy(Blocks.IRON_BLOCK));
+    @ItemContent.ItemGroupTarget(ItemContent.Groups.decorative)
+    public static final Block BIOSTEEL_BLOCK = new Block(AbstractBlock.Settings.copy(Blocks.IRON_BLOCK));
+    @ItemContent.ItemGroupTarget(ItemContent.Groups.decorative)
+    public static final Block PLATINUM_BLOCK = new Block(AbstractBlock.Settings.copy(Blocks.IRON_BLOCK));
+    @ItemContent.ItemGroupTarget(ItemContent.Groups.decorative)
+    public static final Block ADAMANT_BLOCK = new Block(AbstractBlock.Settings.copy(Blocks.DIAMOND_BLOCK));
+    @ItemContent.ItemGroupTarget(ItemContent.Groups.decorative)
+    public static final Block ELECTRUM_BLOCK = new Block(AbstractBlock.Settings.copy(Blocks.IRON_BLOCK));
+    @ItemContent.ItemGroupTarget(ItemContent.Groups.decorative)
+    public static final Block DURATIUM_BLOCK = new Block(AbstractBlock.Settings.copy(Blocks.NETHERITE_BLOCK));
+    @ItemContent.ItemGroupTarget(ItemContent.Groups.decorative)
+    public static final Block BIOMASS_BLOCK = new Block(AbstractBlock.Settings.copy(Blocks.IRON_BLOCK));
+    @ItemContent.ItemGroupTarget(ItemContent.Groups.decorative)
+    public static final Block PLASTIC_BLOCK = new Block(AbstractBlock.Settings.copy(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.SHROOMLIGHT));
+    @ItemContent.ItemGroupTarget(ItemContent.Groups.decorative)
+    public static final Block FLUXITE_BLOCK = new Block(AbstractBlock.Settings.copy(Blocks.IRON_BLOCK));
+    @ItemContent.ItemGroupTarget(ItemContent.Groups.decorative)
+    public static final Block SILICON_BLOCK = new SlimeBlock(AbstractBlock.Settings.copy(Blocks.SLIME_BLOCK));
+    @ItemContent.ItemGroupTarget(ItemContent.Groups.decorative)
+    public static final Block RAW_NICKEL_BLOCK = new SlimeBlock(AbstractBlock.Settings.copy(Blocks.IRON_BLOCK));
+    @ItemContent.ItemGroupTarget(ItemContent.Groups.decorative)
+    public static final Block RAW_PLATINUM_BLOCK = new SlimeBlock(AbstractBlock.Settings.copy(Blocks.IRON_BLOCK));
     //endregion
     
     @Override

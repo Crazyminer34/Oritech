@@ -1,6 +1,8 @@
-// 1.21.1	2024-11-15T19:21:53.9469701	Oritech/Recipes
+// 1.21.1	2024-11-15T22:23:14.6226766	Oritech/Recipes
 3d8b60cdef5bcc031c796d168af32ac0c87a6a73 data\oritech\recipe\fuelgen\compat\techreborn\oil.json
+b4abaf925711776e5a62f694a33b26cb479e52c7 data\oritech\advancement\recipes\misc\biosteel_blockblock.json
 482a6bf779797c369ca77e964c30cb67416b3a7a data\oritech\recipe\iron_ingot_from_smelting_iron_dust.json
+1fe8c8dae1f28cee9719dd53d4e5535211af5bd2 data\oritech\recipe\raw_platinum_blockblockinv.json
 1c8683ebd97b8cbf63c945fc7ab2ca934b62b02e data\oritech\advancement\recipes\building_blocks\crafting\stairs\nickel.json
 9a71a2e58f2bd199cfd2cb9e68b1df820c7a3271 data\oritech\advancement\recipes\misc\copper_ingot.json
 da86606646ecd4cb561ca6258de7a4b9e5a7ccde data\oritech\recipe\crafting\pressureplate\nickel.json
@@ -9,6 +11,7 @@ e4aec21b16dee387afc5a5e765b6f91bebcecd5b data\oritech\recipe\atomicforge\compens
 cc2002e26285d55642a83fec842ce9bf0b91d9e7 data\oritech\recipe\copper_nugget_from_blasting_small_copper_dust.json
 d4a7d0dd55e30581e8e64a296b59110791440dc7 data\oritech\recipe\grinder\dust\nickel.json
 8d71e0a8e50ee7856759ea91dc6d6f2ecbace8fa data\oritech\recipe\compat\alloyforgery\electrum.json
+4ff42ccc69ae4e7667e1f8fedf976c41a88a8e7d data\oritech\advancement\recipes\misc\plastic_blockblock.json
 0009dcb7b34c91be55f46a5c0f02930f1718e1e0 data\oritech\recipe\foundry\alloy\compat\techreborn\electrum.json
 15776562fac77a3bd1c3280b14d96a4c1db6db22 data\oritech\recipe\crafting\core2alt.json
 2db0df3ba1af6ee291ad88a3ad74bc6ad5d193bf data\oritech\recipe\grinder\dust\compat\energizedpower\tin_ore.json
@@ -47,7 +50,9 @@ fd5e454427c1d8d79e3b9d6098dc1362d75636b2 data\oritech\recipe\crafting\techlever.
 b7bce9cb23c824712de755acbbca7d51c410c56f data\oritech\recipe\assembler\superconductor.json
 ebb2f254aae5dd46c29357e82a761eb3537421b2 data\oritech\advancement\recipes\misc\crafting\fertilizer.json
 72546056a25c37dc22831b241634977176e1db65 data\oritech\recipe\atomicforge\advcomputer.json
+21f6e77aeafb861b155abe6448330bfecb74bf06 data\oritech\recipe\energite_blockblock.json
 455cebfce9e5896dc8ce7c4a94b76c258756125a data\oritech\recipe\pulverizer\dust\duratium.json
+81607007d90a05db478272a1a7362bfe75515cb6 data\oritech\recipe\platinum_blockblockinv.json
 a90fe26e49a1cc8b1cf4ec426568cc4c3baa63f2 data\oritech\recipe\crafting\laserarm.json
 0c7438a2152e6e2fd2127719f5bdfcf4f8c185a1 data\oritech\recipe\crafting\addon\speed.json
 ca85ff582bea28db6a03ee5c4e94bb4fa52dfca2 data\oritech\recipe\crafting\basicgen.json
@@ -71,12 +76,14 @@ f4a6aea3ff3a4b070753f7e32cea46ad3812d0eb data\oritech\advancement\recipes\misc\c
 af8a9fd44389bb0ae6562ebd5d472f664681cde6 data\oritech\advancement\recipes\misc\crafting\pump.json
 e2ebc4fd836aea77c4ad3cf71fb65abb259fbfe7 data\oritech\recipe\copper_ingot.json
 84df48eaf02cd6df3ab751da4955481813a73e23 data\oritech\recipe\foundry\alloy\inverse\duratium.json
+b977ced6c875006f20f2df904d733e397a144a0f data\oritech\advancement\recipes\misc\biomass_blockblock.json
 8f30de6e1f8ac8fad7196a63d4fd8294d3b03d21 data\oritech\recipe\compat\energizedpower\alloyfurance\steel_with_dust.json
 624ce84926f9116fe42c7796dce44f9c79d69e59 data\oritech\recipe\compat\energizedpower\assemblingmachine\fluxgate.json
 39f690450609dcd0a868a65a1804b4badf801d3e data\oritech\recipe\crafting\fertilizer.json
 e797cd4aff9ab61e8b65296fafa46327a23a1a31 data\oritech\advancement\recipes\misc\crafting\spawner.json
 a5a38698c84e0c2a9f8bafc53fa27721ebfb6855 data\oritech\recipe\crafting\witherrose.json
 64a3741a079e89c9c11d86024744b6b45b6bb9fd data\oritech\recipe\pulverizer\dust\diamondore.json
+f5bfe313b5ab38838d07c4012b928a802ed9357f data\oritech\advancement\recipes\misc\fluxite_blockblockinv.json
 3041b8925c4a44f45d814c22bd965ecf01797f2b data\oritech\advancement\recipes\misc\platinum_nugget_from_blasting_small_platinum_dust.json
 0662851602c613f44658a3445a446f79ee2b3ba6 data\oritech\recipe\atomicforge\reinfdeepslate.json
 6512f6a399260bd391fd12e98979a06304bfb57b data\oritech\recipe\pulverizer\dust\biobasic.json
@@ -88,10 +95,13 @@ c54660877e48aa4566018db42aa6d796be92ec9c data\oritech\recipe\compat\techreborn\a
 3f269f3c94f18ec86646349a6d15c45dac82e664 data\oritech\recipe\iron_ingot.json
 dd78f74c557d37959af0f4d8cdc52f04008782e1 data\oritech\recipe\platinum_ingot_from_smelting_platinum_gem.json
 0cefe78a762b3766637badb5dd19b7a5db67955c data\oritech\recipe\compat\energizedpower\alloyfurance\adamant.json
+96d99a8bf6427202e4241544a62331b88c9c4023 data\oritech\recipe\duratium_blockblock.json
 1099e3740e306ab0941f1e0e341ac52c0c2a3518 data\oritech\recipe\pulverizer\dust\dyes\white.json
 39c2b6056edba15a5f4bd0f673fa2011ebbd2986 data\oritech\recipe\crafting\assembleralt.json
 e69f3317222224dc3cdc5e0be581ad161ec80903 data\oritech\advancement\recipes\building_blocks\crafting\slab\iron.json
 30ef571c5274484dbfbd79608ce22947bb032722 data\oritech\recipe\pulverizer\dust\electrum.json
+32ffa7765f45a047c50b999e0e421560e01391a5 data\oritech\recipe\steel_blockblockinv.json
+aee901c8c602f58c1e045684a6047e9bb5b133d6 data\oritech\recipe\biosteel_blockblock.json
 026609c588029d75edfabfa632e9e35a1e565489 data\oritech\recipe\foundry\alloy\steel.json
 2ed7e318b5d3e12a1588e8c7d765d04fc6f63f58 data\oritech\recipe\assembler\fireball.json
 33a57392c81e1812b3da20e38bbdc66d2361b3ee data\oritech\advancement\recipes\misc\crafting\particlemotor.json
@@ -100,11 +110,14 @@ b822c0d20089e9eb4169aee8408d56cef2d13813 data\oritech\recipe\crafting\plating.js
 f2b043f1ee43320da472bece749f4f45289ac074 data\oritech\advancement\recipes\misc\electrum_ingot_from_smelting_electrum_dust.json
 1c4154dfed533cde3201bc72016fe19d1a6844cc data\oritech\recipe\grinder\dust\compat\energizedpower\raw_tin.json
 956e6da3c6ed1f8b571828faae38d4e8d78904f2 data\oritech\recipe\atomicforge\aicomputer.json
+c69e0b4731ce9367c2e3f3a057be568c2afb2328 data\oritech\advancement\recipes\misc\energite_blockblock.json
 d60858e07d4ddcd82d2f340f063973addd600d73 data\oritech\recipe\compat\techreborn\alloysmelter\platinum_gems.json
 72b439e6312d10d865a4ebf58f72f5c79328be79 data\oritech\recipe\atomicforge\dust\copper.json
 d25c35093f4938750578450e8d49aa2eb72465d1 data\oritech\recipe\pulverizer\dust\dyes\cyan.json
+0236e79b50c3f4054df6f41a493483a1d39c23fb data\oritech\recipe\steel_blockblock.json
 09ebe036bc7d1dbc2e7afa0565a8bec50b8dc04b data\oritech\recipe\grinder\dust\compat\mythicmetals\osmium.json
 a1847f3e5f064f3b9fd1913a2ca09143c0c4f725 data\oritech\recipe\compat\energizedpower\alloyfurance\nickel_gems.json
+7db2cc2d2912754a4fa7ce3b04af473f21e0008b data\oritech\advancement\recipes\misc\raw_nickel_blockblock.json
 9f8dee6ca4c51ff21a23e997856243a0cc8d9e9f data\oritech\recipe\deepdrill\iron.json
 7dedd338fcf3ce76795f90ec7932d893ced32274 data\oritech\recipe\crafting\biogen.json
 6a157ff199742866ec01e9f5f0ad079adc25f707 data\oritech\recipe\pulverizer\dust\dyes\red.json
@@ -140,6 +153,7 @@ b88aab54f89d5a27f42abf6e3b6d07be1ef05bbe data\oritech\recipe\centrifuge\fluid\cl
 5b32c745e62d3c90f50ca3ae33a98d1bf97c3e30 data\oritech\recipe\foundry\alloy\inverse\compat\mythicmetals\star_platinum.json
 4835a95f81c5821681a9b2b5b39e474db204b6e6 data\oritech\advancement\recipes\misc\crafting\basicjetpack.json
 532965a8d5fe5e8c3a31d948f2f86090ac849052 data\oritech\advancement\recipes\misc\gold_ingot_from_blasting_gold_dust.json
+d8802013cd48cb0360a6d0ff5ea6ee713ce904a5 data\oritech\recipe\adamant_blockblock.json
 38ea3a53bf57eec4d732d750d1d0139415bd31bc data\oritech\recipe\compat\techreborn\grinder\adamant_ingot.json
 6da2cfe26d779565446f68b1926dd55060c98e8f data\oritech\recipe\crafting\addon\invproxy.json
 cf331a9bd374e6dcbf8f6d08b1cfd0d909eccc90 data\oritech\recipe\centrifuge\clumpwet\copper.json
@@ -155,6 +169,8 @@ a6ce7c4787965cd6da81502fd826dd721c666a3e data\oritech\recipe\crafting\slab\nicke
 7db1ce34d3be63685335bd4a90b4a112ce4eaae5 data\oritech\recipe\atomicforge\compensator.json
 41ae8ccf67d239ca2eeb3ec78abe3b0ca07851cc data\oritech\recipe\pulverizer\raw\nickel.json
 6b07a14301d98f847ef81d04661ab4c96215fef4 data\oritech\recipe\crafting\alloy\adamant.json
+858419c03202eb277bec0d859dad60753b43c1eb data\oritech\recipe\raw_nickel_blockblock.json
+64f5fa7d082881c546bb67880fdf88659b34b8b4 data\oritech\advancement\recipes\misc\fluxite_blockblock.json
 f77a6c731c4d76a09b982fe3059ab84f4ae7acbc data\oritech\recipe\copper_ingot_from_smelting_copper_dust.json
 f5235a196afb9b33c376544882d73981e4e016c2 data\oritech\recipe\foundry\alloy\inverse\compat\mythicmetals\manganese_steel.json
 a8c14e5f788d9c1108f315bf9ae4a8715ae29d04 data\oritech\recipe\crafting\exochest.json
@@ -171,8 +187,11 @@ a8c14e5f788d9c1108f315bf9ae4a8715ae29d04 data\oritech\recipe\crafting\exochest.j
 c7fbc33ee4554ddba9e97963941fc3b41eb36ceb data\oritech\advancement\recipes\misc\crafting\addon\quarry.json
 8eb8e26059fa9367654abb04d8ed78803b0dfcb6 data\oritech\recipe\foundry\alloy\energite.json
 34891ca6771e0bd6c8cfd0c3b1c16f52476a2b94 data\oritech\recipe\grinder\dust\quartzore.json
+d891124ed5b3bc829d1864c635a671c4bc171b18 data\oritech\advancement\recipes\misc\electrum_blockblockinv.json
+7c2b4c14e5de50767804acb5a0a62ef518e93bf1 data\oritech\advancement\recipes\misc\steel_blockblockinv.json
 6d457b7e3f1577303e21da8c7a1c3087f46920d0 data\oritech\advancement\recipes\misc\crafting\lavagen.json
 cd8a3b53dba2fa28b8cf63bb2e5d4e436d383d99 data\oritech\recipe\particle\nether_star.json
+d59f645a6c5c0d6a900d2fabb95b32d641d183d5 data\oritech\recipe\silicon_blockblock.json
 e3b38a439d6da5a483ea9ac28e340fdd7077f27a data\oritech\recipe\platinum_ingot_from_blasting_platinum_gem.json
 cd0d9b340074624101165f194c8e3ee442fa3a8e data\oritech\advancement\recipes\misc\crafting\core1.json
 7c9fc8d4e13bf114fcf85ed2bc55241a4d2b6c75 data\oritech\recipe\crafting\deepdrill.json
@@ -185,6 +204,7 @@ c32f461b702e3f27d48412568381d5de07e9d344 data\oritech\recipe\foundry\alloy\inver
 f99689e8a561761de1697813f75657fe3508e412 data\oritech\recipe\grinder\dust\lapisore.json
 6eaed2badd0823cc9ecb23b091b202ce2f7ca991 data\oritech\recipe\pulverizer\dust\compat\techreborn\bauxite.json
 30c42e868df5da322cf75460a52fe6d003c401fc data\oritech\recipe\crafting\nickel.json
+3c4684251fc00d61a662cbaf82a48c2f352bb655 data\oritech\advancement\recipes\misc\energite_blockblockinv.json
 de443c2124b16acd0879c261f59d29a2b6df7f87 data\oritech\recipe\assembler\solidbiofuel.json
 d644dd63141cd0ea22e38351a356c790fb3172ef data\oritech\advancement\recipes\misc\crafting\exohelm.json
 4b33726dae870824b4b1717233d315d2db1a4a36 data\oritech\advancement\recipes\misc\motor\manualbattery.json
@@ -197,9 +217,12 @@ c6a5ee3598230696a38edd67bda31051dbe0beba data\oritech\recipe\compat\energizedpow
 c90bfdbd5a79a3f8e014fc02fe97ae5cafd7d239 data\oritech\recipe\fuelgen\compat\techreborn\nitrofuel.json
 dda9ed8ecffb251d3fd7298dedb68cf7cd546581 data\oritech\advancement\recipes\misc\crafting\addon\yield.json
 559265966f66798f8cf7e767a559905a39984538 data\oritech\recipe\nickel_dust.json
+3124708cb2f7a20f3b8d5157f60e5035b728c781 data\oritech\advancement\recipes\misc\duratium_blockblock.json
 2f7b21ae20f62117fb77a91bfc4b4e702090a76a data\oritech\recipe\centrifuge\fluid\biopolymer.json
+90210a3461c78bdfa1382b1c358cc44ae5de60d2 data\oritech\advancement\recipes\misc\steel_blockblock.json
 f0f869f8371887ac85dcb0a557d5316a2005e2cd data\oritech\recipe\foundry\alloy\netherite.json
 22af52a7a080025bdb931d30e9e1574cd4a00aec data\oritech\recipe\biogen\compat\techreborn\compressedplantball.json
+7dd6cab1f91842065292ae44018f198542e3f9bf data\oritech\recipe\energite_blockblockinv.json
 5a5f44ca7feb964786bf155f9ca05f52913c506a data\oritech\advancement\recipes\building_blocks\crafting\slab\machine.json
 ab3622fd65c9f9036455328a4323e52dbb084075 data\oritech\advancement\recipes\misc\crafting\core3.json
 d874c8062099cfde3e6137691417148bbbf28af8 data\oritech\recipe\pulverizer\dust\nickel.json
@@ -229,6 +252,8 @@ d95bb9d0289e55b91055359a446141794c95be3d data\oritech\recipe\crafting\catalyst_a
 f6ebffe1e67b22b730b6a9fbc6810347c49e5619 data\oritech\recipe\pulverizer\dust\dyes\magenta.json
 da0cc65c3f66f1897b7d7a05410916c5edc4d338 data\oritech\advancement\recipes\misc\crafting\basicjetpackalt.json
 879a536bf0697c2cb6e65f2e1caa175660bbec7b data\oritech\recipe\compat\energizedpower\assemblingmachine\slime.json
+04e50036f934df78b42ec290481b481794696e3a data\oritech\recipe\nickel_blockblock.json
+e1361c28184e232db7c342f5b116ba8ce929d35b data\oritech\recipe\raw_platinum_blockblock.json
 8c7a6ca397694f14206e963c580579ed28058738 data\oritech\recipe\copper_clump.json
 c46a19f105f2e939c37e7d9915d272cd8225f86e data\oritech\recipe\foundry\alloy\compat\mythicmetals\durasteel.json
 3765dbd0f739020ea7fad1bcc3f3c44d0331649b data\oritech\recipe\crafting\core3alt.json
@@ -247,6 +272,7 @@ bf6c8c516a87a0e322ee135566bbd7f483f3578e data\oritech\recipe\compat\techreborn\a
 6f1684da60aece0fbe1cace6c877baa8a85f96d6 data\oritech\recipe\foundry\alloy\inverse\compat\techreborn\brass.json
 314c951158e7bbe7c471e4bf9b2ac67963d12a31 data\oritech\recipe\pulverizer\dust\compat\techreborn\chrome.json
 8e0455da34e10efe94e322bf61dda1310b6c0ebb data\oritech\recipe\crafting\handdrill.json
+8fda9f6ad1032feeecbef5006e7d98cf9629845f data\oritech\recipe\biomass_blockblock.json
 893d1a561ec5c0a62470a3660e61326a34c460cc data\oritech\recipe\crafting\steamgen.json
 7caa0bbd9b4c258039f340ec54c116e5d0a4d5a0 data\oritech\advancement\recipes\misc\silicon_from_smelting_raw_silicon.json
 75d8a49ffd15de3b7bd5661c27aac01c2b5fec46 data\oritech\recipe\crafting\chargeralt.json
@@ -264,6 +290,7 @@ a2c7a72ce2aadddd5f3fe6afbf492b4b71668f20 data\oritech\recipe\fuelgen\fuel.json
 ea8d77263cf9f2b5ca746db0bfbd444c29524616 data\oritech\recipe\gold_dust.json
 15d83fa967205aab43d662dce37d10c4ded4d0d2 data\oritech\advancement\recipes\misc\steel_ingot_from_smelting_steel_dust.json
 de7bc8f52bb8b3ab2eb34434ff6d0fa3f294ac33 data\oritech\advancement\recipes\misc\crafting\crusher.json
+1f6361edc72a6ddf93b41c7b227af6b414ed4f13 data\oritech\recipe\silicon_blockblockinv.json
 8bf7695d6009fc6f6744f752c0329678c319d36c data\oritech\recipe\centrifuge\endericsculk.json
 2d53095da88e5c9612d5ab56623b5212b5d4b5b4 data\oritech\recipe\crafting\core2.json
 b597aaa852b84e5699b2d866fe22eb1aa8238272 data\oritech\recipe\crafting\iron.json
@@ -274,13 +301,16 @@ ce19dd43c0452edbecb8bc8823a6984ca276c445 data\oritech\advancement\recipes\alloy_
 f06bdd3b13fe00379719af232731de642d0507f1 data\oritech\recipe\assembler\plating.json
 e6dcbe269d35d51f880b178a54aa83d8fb274dff data\oritech\advancement\recipes\misc\crafting\core6.json
 6076b250d8968393183426694213e9bb31bf52eb data\oritech\recipe\centrifuge\fluid\plasticbio.json
+b7f0a57b500baea206e9d18dc80901f625a5f374 data\oritech\recipe\fluxite_blockblockinv.json
 eeeccd1311500a9e3037ac80e6f04fd79602c6ff data\oritech\advancement\recipes\misc\energite_ingot_from_smelting_energite_dust.json
 82552a14fd4f792f831d72035678cf4b5f1e69db data\oritech\recipe\crafting\stairs\iron.json
+24cbfeb7d0fc95361558b17fbda6808cebefab61 data\oritech\advancement\recipes\misc\electrum_blockblock.json
 961476e86c54da7a2964ea4b07762c0895676655 data\oritech\recipe\foundry\gem\iron.json
 002616e856287b06bb1d725f4e4bd39f799ccee1 data\oritech\advancement\recipes\misc\nickel_nugget_from_smelting_small_nickel_dust.json
 e71d935f7dffcfddee3a7802afc0986720cf8c4e data\oritech\advancement\recipes\misc\crafting\charger.json
 576cec446a5812aff4acd822b66fd52511763e1c data\oritech\advancement\recipes\misc\crafting\alloy\electrum.json
 10456faa48a11947986c6d4def174b69b4ce066a data\oritech\recipe\iron_ingot_from_smelting_iron_gem.json
+6a8e0c2165e9afc965e3936f5e920b41a13128ed data\oritech\recipe\plastic_blockblockinv.json
 ebc8b02f306f7b7edaafcc723298c8f1446bdea3 data\oritech\recipe\pulverizer\dust\copper.json
 c18423a99b666430be26a2cc5ea88a3e79902473 data\oritech\recipe\pulverizer\dust\compat\techreborn\titanium.json
 61b8ffe5a6595e8586e7e7e2bb6d634192ffecd8 data\oritech\recipe\particle\echo_shard.json
@@ -305,6 +335,7 @@ eedf6d177889880dc9d404e7ddbbb59f1ca780aa data\oritech\recipe\crafting\extender.j
 0269da6cd56f138381fbd0afec99c41a3b28deaa data\oritech\recipe\crafting\pressureplate\machine.json
 b2c392d7ca3a29ff4142a94bb3d7460e070a9d99 data\oritech\recipe\steel_ingot_from_blasting_steel_dust.json
 077aa5300b4db0af37a43a182dfe2a95ea0b8f91 data\oritech\recipe\assembler\blazerod.json
+6496d71f2af179571679b1c0d06e27500da06d9a data\oritech\advancement\recipes\misc\adamant_blockblockinv.json
 96e7d9996676e28c4f958e60c2b697f872b0b262 data\oritech\recipe\crafting\crusher.json
 af4892023ca2046a648c51bff2e368f25a9bd735 data\oritech\recipe\platinum_ingot_from_smelting_platinum_dust.json
 ffb9ee362eaf060be8501f2368ee0d1bbfcc8812 data\oritech\advancement\recipes\misc\motor\overchargedcrystal.json
@@ -335,6 +366,7 @@ ef74641e6eacb1a25353f3bb7bc5193dcd9e1633 data\oritech\advancement\recipes\misc\c
 2e37a77db24644ffc8abd6fae6d2a2fd3a16d8d2 data\oritech\advancement\recipes\misc\crafting\exojetpack.json
 ff5169750d78d7d56ef10b80fb6cffa02f9e7bfe data\oritech\recipe\compat\energizedpower\assemblingmachine\platingiron.json
 9bb336c91f7877263740d5a99154e58d8a35567e data\oritech\recipe\gold_ingot_from_blasting_gold_dust.json
+4e5eee86fa8f41a7f234ca41e2e33c7f2667de89 data\oritech\recipe\electrum_blockblockinv.json
 999e1fc2d0a8767e5f88dbee09004d3eaa3cb597 data\oritech\recipe\pulverizer\dust\coal.json
 d397e63b0f4cb422bd484d9d1f7f99a58350ac00 data\oritech\advancement\recipes\misc\iron_dust.json
 ec4c682c925e6f388ebaf2362ffb92ddae38603c data\oritech\recipe\grinder\dust\gold.json
@@ -364,12 +396,14 @@ c2d48096dfd2a5e72118c4bf776e9c3aabfea4a9 data\oritech\advancement\recipes\misc\n
 7c3ac7f98c3841d83c6d0a6ca0cbbbf3ad7a17a1 data\oritech\advancement\recipes\misc\motor\dubious.json
 796f0d20a61dfb30a9d766599fff30838e3d2183 data\oritech\advancement\recipes\misc\nickel_ingot_from_smelting_nickel_dust.json
 29357e7e6dfd62cd166c914b6f97683113b6bcd8 data\oritech\advancement\recipes\building_blocks\crafting\slab\nickel.json
+0dee7cbd242e91088931130b8ff4f80421cd613a data\oritech\advancement\recipes\misc\biomass_blockblockinv.json
 1b8f1fe3f15f0dee900e97bd89365c5b7ac8c728 data\oritech\recipe\grinder\dust\compat\techreborn\lead_ore.json
 f442610fa1ab1287b8b5b2a623e77a571be030c1 data\oritech\recipe\grinder\raw\gold.json
 da7075c86c248927c46cb95ed00c694f58cd8d80 data\oritech\recipe\crafting\addon\steamboiler.json
 5136366cffe6c5fd04b2e77c0c15989e73dd3186 data\oritech\recipe\centrifuge\clumpwet\platinum.json
 d17602b4bc2a88c64ca68204cef96a840aa8cdb3 data\oritech\recipe\crafting\addon\redstone.json
 dd6377648989a2fbf78c09a4ef170bed3f0651ac data\oritech\recipe\pulverizer\dust\iron.json
+fd61542b18d1670f640fc9699b2acaaff7fb306b data\oritech\recipe\nickel_blockblockinv.json
 8ee203cd1230deedff2354a56608d1def4ae665f data\oritech\advancement\recipes\misc\crafting\exoboostedelytra.json
 3683890e294d011e85df9071e4a9be7b84ce6e9c data\oritech\advancement\recipes\misc\iron_ingot_from_smelting_iron_dust.json
 7f2523c494d8acedf9a211540128a465cd530240 data\oritech\recipe\compat\techreborn\alloysmelter\oritech_electrum.json
@@ -390,6 +424,7 @@ ff67f9aa70f454e639d01e4cf3f6dcdec3ac9bc6 data\oritech\recipe\atomicforge\dust\ni
 28a335193c169446aafa6f8e5efc40df90ce9be0 data\oritech\advancement\recipes\misc\crafting\deepdrill.json
 970d6aa53bfe755e1686f5ddd785d6f50b2dad5b data\oritech\advancement\recipes\misc\platinum_ingot_from_blasting_platinum_gem.json
 273c4637a48767dafba180d8042d0c46c30d04ae data\oritech\recipe\compat\techreborn\grinder\biosteel_ingot.json
+84df7819a543f852160f4e481a281f93e7b0425a data\oritech\advancement\recipes\misc\silicon_blockblockinv.json
 aacfc1ffa22e62cf0b407f6daf8ca70f6f973ad6 data\oritech\advancement\recipes\misc\crafting\handdrill.json
 b11924b21b0e1189f908a962a9961c76f494ae95 data\oritech\advancement\recipes\misc\crafting\addon\fluid.json
 b86bd65dccfb8da6f8b3967e84e3dcb22abc5f18 data\oritech\recipe\fuelgen\crude.json
@@ -402,6 +437,7 @@ f2d15bfb0a2fde43ea54be083e56944b621ac0da data\oritech\advancement\recipes\misc\a
 2edecbead5d5be7651adae15b4d0203d1edbf28e data\oritech\recipe\platinum_ingot_from_blasting_platinum_dust.json
 74b72358b265ca39456270a27cb43dc61ba20a3b data\oritech\recipe\gold_nugget_from_blasting_small_gold_dust.json
 109095fbd0d44ca5d9f729b26ec5e13d7e1b3f90 data\oritech\advancement\recipes\misc\nickel_ingot_from_blasting_nickel_gem.json
+ab0b7ee5c000b96f984fdb1df151ff224b5881b8 data\oritech\advancement\recipes\misc\platinum_blockblockinv.json
 b13f50b07513afcc3ee666ba7bde25d7cf1a2727 data\oritech\advancement\recipes\misc\crafting\cage.json
 b0497ed65b4237599d8f8e6a6dd7ba8c09d8ab8a data\oritech\recipe\crafting\weedex.json
 0e7c73d3d613e6515b7ee13d2c74c0e398b3c66b data\oritech\advancement\recipes\misc\crafting\addon\cropfilter.json
@@ -432,6 +468,7 @@ a18d39f09db2513023d7dccd147c1ed41f9f80a0 data\oritech\recipe\assembler\processin
 d8a6cf774cfe23e53795f7486dff6732c278994e data\oritech\recipe\assembler\magnet.json
 157d2c0c3ef6bb3377a4520360f7c11cddecee3e data\oritech\advancement\recipes\misc\copper_ingot_from_blasting_copper_gem.json
 005ae79c4b93e7c27279f9fa77444e4ff8dc9ab3 data\oritech\recipe\crafting\addon\eff.json
+b7f76804b04988c749649753ab396dfbf790e005 data\oritech\advancement\recipes\misc\silicon_blockblock.json
 34e1f59f4ff0a291cd19ad181a62b5537d660e7b data\oritech\recipe\pulverizer\dust\packagedwheatbio.json
 2ff0e37037508eb042111cadd2e362dcdb76fe2c data\oritech\advancement\recipes\misc\crafting\alloy\rawsilicon.json
 7685b79a50627a0d21a35cc12b71962341b1ccd1 data\oritech\recipe\silicon_from_smelting_raw_silicon.json
@@ -446,6 +483,7 @@ fed667c23d6bc34bfd962d75ba31f9646b42e15f data\oritech\advancement\recipes\misc\i
 e078c165ab17f9b3576caf316cc780592e558bb7 data\oritech\advancement\recipes\misc\biosteel_ingot_from_blasting_biosteel_dust.json
 010b16d1fabd9a106cdef65e567f29d9487daa1e data\oritech\recipe\assembler\fwire.json
 8a5b729710a162ae14d77a5e22facab2fcb55096 data\oritech\advancement\recipes\misc\crafting\designator.json
+613c9be53ccbc88ed7eb0015a18a0615d19b594e data\oritech\recipe\raw_nickel_blockblockinv.json
 f906dc01cf7a697c756a218a6a5a0ec999b91a3f data\oritech\advancement\recipes\redstone\crafting\iron.json
 16357f6f23522c85dbcbd83a93829fc3de4f5747 data\oritech\advancement\recipes\misc\crafting\chainsaw.json
 aa138a855d69c03a394f22b8d4c5bac5147e4365 data\oritech\recipe\nickel_ingot_from_blasting_raw_nickel.json
@@ -465,6 +503,7 @@ a5ed4b094e429e58c3b6a022061a8b5f7b234240 data\oritech\recipe\compat\energizedpow
 716a4bfd13d8ea38d10118b13c6b43afa4fc5978 data\oritech\recipe\crafting\exojetpack.json
 b3d8b693c1f88bd58e80fd0ee6cdd671c07eb6a3 data\oritech\recipe\foundry\alloy\inverse\compat\techreborn\bronze.json
 8aae5c185cb91319a6f9ac7137dd78543804640f data\oritech\recipe\centrifuge\clumpdry\nickel.json
+edef4241c88b2adb328a9c6d87ee02a56c634883 data\oritech\advancement\recipes\misc\platinum_blockblock.json
 16964e61dacc22f98aaa8c18d76963e05d43fd8f data\oritech\recipe\crafting\core5.json
 118fff6e39640ff0f150ae6607ce5799a211dd8b data\oritech\recipe\grinder\dust\copper.json
 4051876cb761cad0c20b9131ebfb95b39e85210f data\oritech\recipe\pulverizer\dust\compat\techreborn\red_garnet.json
@@ -503,6 +542,7 @@ b5ef8d87d30b7d02cb57c45c5d688176640e4e42 data\oritech\recipe\foundry\alloy\inver
 0c96eafef9cd65d2973419ab1efe012f13fdb48c data\oritech\recipe\crafting\bigstorage.json
 60fb3b90a6098cea658b11508dac4bbcbc697685 data\oritech\advancement\recipes\redstone\crafting\pressureplate\nickel.json
 ed1f8df80a71e0b9d57310c3424c1c0ca3306a64 data\oritech\recipe\grinder\dust\duratium.json
+bc04818a16031bb1ac38116cca44186749c309b8 data\oritech\advancement\recipes\misc\adamant_blockblock.json
 70dc465a25f4e821609eabaa39c3b38403186201 data\oritech\advancement\recipes\misc\crafting\addon\steamboileralt.json
 157a406744ae8382d1b101548e01b69e5cecd5c7 data\oritech\recipe\compat\energizedpower\assemblingmachine\enderlens.json
 f765167f2e6230908236e24942cc6f88ca1c9940 data\oritech\recipe\crafting\exoboostedelytraalt.json
@@ -524,15 +564,19 @@ a50560f6c64b7f21165d6a834b3d2f252a4befa5 data\oritech\recipe\pulverizer\dust\com
 dd1ec2c483127447da6b74f795b3de6ed13c9f23 data\oritech\advancement\recipes\misc\nickel_ingot.json
 30125a085151bb5d2b203436069ff423a7597489 data\oritech\recipe\compat\energizedpower\alloyfurance\iron_gems.json
 86c7d13fb51b8d735e068595afffbbcda2f9b93e data\oritech\recipe\crafting\promaxe.json
-448617b0ca5cd7a0a3ca5171c5e31840ad7684bb data\oritech\recipe\crafting\spawner.json
+037c1cd768aa5a6f4c7c70ab5c0e2ab1d3f7f318 data\oritech\recipe\crafting\spawner.json
 cae5191ea84623bf7ca8b983442a386c71173ea6 data\oritech\recipe\nickel_ingot.json
 f8f957c0fe28bd0909d50995f6e54393f75d66b9 data\oritech\recipe\grinder\dust\compat\mythicmetals\kyber.json
 77ef5a93601dd3c51ffe74d90dbc4f1a434735b8 data\oritech\advancement\recipes\misc\crafting\fuelgen.json
+67214cd62ffabd61a740bbd600e4724d44c7910b data\oritech\advancement\recipes\misc\duratium_blockblockinv.json
+e44dd83bc78a4077fee5e6d2f7647e476e70ec2e data\oritech\advancement\recipes\misc\raw_platinum_blockblock.json
 86fe610f7672eb3865b57739dbfeaf8bc5d98d5b data\oritech\recipe\centrifuge\fluid\compat\techreborn\fuel.json
 8b78cf2172eea19140c7e545ecca9e44b38489e6 data\oritech\recipe\pulverizer\dust\coalore.json
+b5688acf819568a64e1e7b5357f368df175b40c8 data\oritech\recipe\fluxite_blockblock.json
 f7924f2e64043596e1649b13544e3d6a0b324ece data\oritech\advancement\recipes\misc\crafting\catalyst_alt.json
 94e1e315c77ec15f9d5404b092d01c7e572c8bed data\oritech\recipe\grinder\ore\gold.json
 4886b21b82fc065f0b67eb3ca519bd43f9947875 data\oritech\recipe\deepdrill\diamond.json
+f75ae92c84a41a180c490d8008f08ab5a4c9fdb4 data\oritech\recipe\plastic_blockblock.json
 5a65876fc5746ce14cd4c81c95bf21b56f4253c4 data\oritech\recipe\centrifuge\carbon.json
 5ae65a062de85974105ccffc3af3368739e4c397 data\oritech\recipe\energite_ingot_from_smelting_energite_dust.json
 565b0d589ae1c0a79b6b938e6c1d2418e5ac7b27 data\oritech\recipe\pulverizer\dust\dyes\pink.json
@@ -541,6 +585,7 @@ f7924f2e64043596e1649b13544e3d6a0b324ece data\oritech\advancement\recipes\misc\c
 c837a862fd9f0f23752e03322c36be742dc27410 data\oritech\recipe\deepdrill\lapis.json
 f598e6a5703618a25e3429f58f5691c8377a4168 data\oritech\advancement\recipes\misc\crafting\core3alt.json
 7d8594f45ba1ba095c99166c6f8ac87724bddf7e data\oritech\recipe\crafting\pulverizeralt.json
+2cdc504b0ffb3dcaad8c14e669c9d68298a57aec data\oritech\recipe\electrum_blockblock.json
 60d974daa1801f9bf9887fecf0741e344386afc9 data\oritech\recipe\compat\energizedpower\assemblingmachine\superconductor.json
 6015aa3bd01a6bd7cd1877cfdedfce9baa6abe36 data\oritech\recipe\foundry\gem\copper.json
 dfb90c75ce0ccb9f1845ee273ce1aea7d2cfd63e data\oritech\recipe\centrifuge\clumpwet\gold.json
@@ -553,6 +598,7 @@ b6ef4eb2e3b23694d3e96d13f58da74a864a472a data\oritech\advancement\recipes\misc\c
 95b4e7ea7b0efa977dc377e754d39c059a0584e6 data\oritech\recipe\pulverizer\dust\string.json
 29a039d020a6babf132ac2ddb0eef6485c1efeb4 data\oritech\recipe\crafting\addon\quarry.json
 e908eb3854859f98174e7059f226565babb1ebd9 data\oritech\advancement\recipes\misc\crafting\magnet.json
+d92e65b25fff611f9b268681f83b2b48633f0cc8 data\oritech\advancement\recipes\misc\raw_nickel_blockblockinv.json
 fdb405a8fd832f77c0b1b511a0f5968e9cfa68a1 data\oritech\recipe\grinder\dust\compat\mythicmetals\stormyx.json
 7d0e44c364e5d8efb21976eb8733a798f10d3157 data\oritech\recipe\grinder\raw\copper.json
 87fc48a030ab56df755195b7fc8474859573d989 data\oritech\recipe\pulverizer\dust\compat\techreborn\brass.json
@@ -582,6 +628,7 @@ e614222fb76475f88145e3e4943f94e8304371b4 data\oritech\recipe\pulverizer\dust\ene
 e5b38e80044ce99f67672830bf1516e41d2fe2c1 data\oritech\advancement\recipes\misc\crafting\techlever.json
 d67d8b0a330eb01e2a8c0de40bac43d2cb103c4c data\oritech\recipe\grinder\dust\redstoneore.json
 0c10bfc93d52054040d49fb3f3488524d73f79d0 data\oritech\advancement\recipes\misc\crafting\addon\capextender.json
+2613a4b1a969b301b91a591fa7e86f5301026e8a data\oritech\advancement\recipes\misc\nickel_blockblockinv.json
 a20459c30d43b6ea083ba1d828fac9b6cba76366 data\oritech\advancement\recipes\misc\crafting\insulatedwire.json
 1102351ee95f281749a5282d7355aff5d07d6454 data\oritech\recipe\foundry\alloy\inverse\compat\mythicmetals\durasteel.json
 d2da0b7e24afaa17b9d0d78c0e9d80c943551332 data\oritech\advancement\recipes\misc\crafting\promaxe.json
@@ -595,6 +642,7 @@ f785291f08068ac5175e395abdd8f9e92569d6fe data\oritech\recipe\foundry\alloy\compa
 2f555639ff0fd8b2dfa733ccb55583142ea07bdb data\oritech\recipe\crafting\stank.json
 55a2724b644bf402607b23b47a905679a4675361 data\oritech\recipe\pulverizer\dust\bone.json
 b7abb9f3f0e023b7ce6d2963f80f95e123f6c46e data\oritech\recipe\pulverizer\dust\compat\energizedpower\raw_tin.json
+46a2a6f9c3dae5b28540bc9c29b1a6d53ca53f8d data\oritech\advancement\recipes\misc\nickel_blockblock.json
 8d7434b21602792377870e6ae0937602b0af6d50 data\oritech\recipe\grinder\dust\compat\techreborn\sodalite_ore.json
 57a08b4dcc15ffb12278e60f77f14cf638bbc765 data\oritech\recipe\compat\techreborn\grinder\electrum_ingot.json
 9502f4d44c4bb59fadf7b9770b08c5e0f517f64e data\oritech\advancement\recipes\misc\nickel_ingot_from_blasting_raw_nickel.json
@@ -606,6 +654,7 @@ cc178ae00d72c7e0f53def93ef91976bf6560ae7 data\oritech\recipe\particle\diamond.js
 61a01327104f116861598a1f80c2a3c4b55fa64f data\oritech\recipe\pulverizer\dust\dyes\black.json
 5a0eff600c509d508c6bf3bf7cd7b96e764c9606 data\oritech\recipe\centrifuge\clumpwet\iron.json
 07312285493267023708771e9e2f82c99fb8ec47 data\oritech\recipe\grinder\dust\bone.json
+aeeaa611588ca539502648f9e65cf24d6c07689d data\oritech\recipe\biosteel_blockblockinv.json
 eff8f1a32b8c0367b380149985693d4636863b68 data\oritech\recipe\foundry\alloy\inverse\electrum.json
 9fffedc226d6e6ecb6e72b448a97013d77b6addc data\oritech\recipe\copper_ingot_from_smelting_copper_gem.json
 fcafde45c141cff42f44e1fd28ecb8e318c65b8e data\oritech\recipe\pulverizer\dust\compat\techreborn\sodalite.json
@@ -626,6 +675,7 @@ ebba1e68d4b8a4e6260b565a51eefc1d115f3aff data\oritech\advancement\recipes\misc\c
 560b7b09a1f89ed6bbbae90a831f2f67968e4213 data\oritech\recipe\deepdrill\emerald.json
 7c627d8f87ce9eaaa52ccb76c0dbaa57e490ed71 data\oritech\advancement\recipes\misc\iron_nugget_from_smelting_small_iron_dust.json
 e6725046602514db6c756a8488716a4b6bc170d7 data\oritech\recipe\grinder\dust\compat\techreborn\sphalerite_ore.json
+6cb13c6f9b5fdc4a2a1b426a0af8a19870044808 data\oritech\advancement\recipes\misc\plastic_blockblockinv.json
 59e76064324655aa3efd0c677912f65bcc729d67 data\oritech\advancement\recipes\misc\copper_dust.json
 1e1f03ec30c388f445d263c4e55994e431e329bf data\oritech\recipe\pulverizer\dust\dyes\light_gray.json
 e44b24313a0f6bad9733221780bdf089f057c658 data\oritech\recipe\iron_nugget_from_blasting_small_iron_dust.json
@@ -634,6 +684,7 @@ eb963bb41572e286f2ed33870ba59ba9f3f7ae10 data\oritech\recipe\crafting\ceilightli
 69f26ba32cd10cc7997534c725f9e0edc06b924d data\oritech\recipe\platinum_nugget_from_smelting_small_platinum_dust.json
 e27e28d9b115593ddbc77270224d169623b8c85a data\oritech\recipe\pulverizer\dust\dyes\blue.json
 2c43f050e339b73cb4a50a8e28b5b3dab88fe495 data\oritech\recipe\compat\techreborn\industrial_grinder\platinum_ore.json
+dcbec324f5c54e345673c99aacd4812c84ae2aa8 data\oritech\advancement\recipes\misc\biosteel_blockblockinv.json
 cf72e9d32816db0830cd9cbb13cfae7ec7e88dd9 data\oritech\recipe\pulverizer\dust\adamant.json
 aff0b0b90c434c1ec2f9d110413e60806e5eca42 data\oritech\recipe\pulverizer\dust\compat\techreborn\invar.json
 43a6c99132e9cad2679c09550ba20e46bfe1357e data\oritech\recipe\crafting\_hunter.json
@@ -649,12 +700,14 @@ dfe566df23ffad2ea83ad2b54369e8a1232ec14d data\oritech\recipe\deepdrill\redstone.
 7c8804048c37ad1b1e2921fbc95f469c198d08bb data\oritech\recipe\grinder\dust\compat\mythicmetals\mythril.json
 3ce2882764b9d5c3b3fac56f6b19e3e9152c4742 data\oritech\recipe\grinder\dust\compat\techreborn\tin_ore.json
 bd3dc64f94538d2d31f8f5f901be57f7e210058b data\oritech\recipe\grinder\dust\platinum.json
+db3d597873122a6f964dbb76c7641eb385edfd34 data\oritech\recipe\adamant_blockblockinv.json
 9b737f9f3508ce2cd9d80d6a10a409513232ec51 data\oritech\advancement\recipes\misc\crafting\bigstorage.json
 26dfa1628cbd6e955869b2fc085dec1352a69e12 data\oritech\recipe\compat\energizedpower\filtrationplant\platinum.json
 96dc27be3b5797e308ad1495fdee8613ab8700f3 data\oritech\recipe\nickel_ingot_from_smelting_nickel_dust.json
 d72741fdf2abe39e3b68d07430d31ee79ab6bee0 data\oritech\recipe\crafting\addon\steamboileralt.json
 c01a13bd53a7c6df248c4b1fbe7b73f1403c2e09 data\oritech\recipe\copper_nugget_from_smelting_small_copper_dust.json
 d90967873d671ac8baababe4f5ea8fb19aab48f2 data\oritech\advancement\recipes\misc\platinum_ingot_from_smelting_raw_platinum.json
+04cf403d5296b6fb10bbe228c5f442b503e9444c data\oritech\advancement\recipes\misc\raw_platinum_blockblockinv.json
 7006148cab92694415c651083bac8cfbff8239c4 data\oritech\recipe\foundry\alloy\biosteel.json
 7be6897d3c2413e929b61a2ed22b856f3ddb8e81 data\oritech\recipe\grinder\dust\compat\mythicmetals\prometheum.json
 a8a817519f191d7fc444297f4d40e0ae440908ef data\oritech\recipe\grinder\dust\quartz.json
@@ -677,8 +730,11 @@ f29fa50d60d8faf23e26f323815ba93c85d6f5ec data\oritech\recipe\particle\fluxite.js
 566d4a971ea9e984b94ffdecce5a77252fec52a6 data\oritech\advancement\recipes\alloy_forgery\compat\alloyforgery\energite.json
 194279897be95b66586ef1b9ff67221ae0d08618 data\oritech\recipe\crafting\exoboots.json
 9febe0453f79f5c4eeab3e5edc68f08b7d4068eb data\oritech\recipe\gold_ingot.json
+48597dfeadbf969756b6bcd4c9855cf9606a79b2 data\oritech\recipe\platinum_blockblock.json
+2b3a1bc8bd7a4098ac52d0790ecf6e264d9c0163 data\oritech\recipe\duratium_blockblockinv.json
 afc305040d200645b615c0017f96bbc70b80ed4c data\oritech\recipe\compat\energizedpower\alloyfurance\copper_gems.json
 ce09a39e56ea0fff5a1d5a83d5d6455c0d42290a data\oritech\advancement\recipes\misc\dirt.json
+228851f8aa001efc3f4355896f4d7e9596ab71b7 data\oritech\recipe\biomass_blockblockinv.json
 828ba5c972979aee3cf433d19b569f55c781c17e data\oritech\recipe\assembler\platingiron.json
 616d3c815fb79c0b422d3e77df50a704a9dd900d data\oritech\recipe\pulverizer\dust\compat\techreborn\peridot.json
 a65314c61b825f7d968dfd4b5831260686c6adff data\oritech\recipe\compat\techreborn\distillation\oil.json

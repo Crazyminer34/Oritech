@@ -143,4 +143,5 @@ In detail, these are the following items that are from the above-mentioned sourc
 * Ycar, for creating all tiers of the machine core textures
 * BBoldt and BLOKBUSTR, for fixing a series of issues with the textures, and generally improving and redesigning almost all the metal component textures
 * jshipley, for a lot of contributions with new features, block, mechanics and bugfixes
-* CrazyMiner34 for improvements to item rendering in 3rd person
+* CrazyMiner34, for improvements to item rendering in 3rd person
+* NovaKatt, for creating most of the metal / compacted block textures
