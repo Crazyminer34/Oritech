@@ -61,6 +61,7 @@ public class RecipeGenerator extends FabricRecipeProvider {
         addDecorative(exporter);
         addVanillaAdditions(exporter);
         addDyes(exporter);
+        addCompactingRecipes(exporter);
         
         TechRebornRecipeGenerator.generateRecipes(this.withConditions(exporter, new AllModsLoadedResourceCondition(List.of(TechReborn.MOD_ID))));
         EnergizedPowerRecipeGenerator.generateRecipes(this.withConditions(exporter, new AllModsLoadedResourceCondition(List.of(EnergizedPowerMod.MODID))));
@@ -69,7 +70,7 @@ public class RecipeGenerator extends FabricRecipeProvider {
     }
     
     private void addVanillaAdditions(RecipeExporter exporter) {
-    
+        
         // slimeball from honey and biomass
         addAssemblerRecipe(exporter, Ingredient.ofItems(Items.HONEYCOMB), Ingredient.ofItems(ItemContent.BIOMASS), Ingredient.ofItems(ItemContent.BIOMASS), Ingredient.ofItems(ItemContent.BIOMASS), Items.SLIME_BALL, 1f, "slime");
         // fireball in assembler (gunpowder, blaze powder + coal) = 5 charges
@@ -104,7 +105,7 @@ public class RecipeGenerator extends FabricRecipeProvider {
         // shroomlight from logs and 3 glowstone
         addAssemblerRecipe(exporter, Ingredient.fromTag(ItemTags.LOGS), Ingredient.ofItems(Items.GLOWSTONE), Ingredient.ofItems(Items.GLOWSTONE), Ingredient.ofItems(Items.GLOWSTONE), Items.SHROOMLIGHT, 1f, "shroomlight");
     }
-
+    
     private void addDyes(RecipeExporter exporter) {
         addPulverizerRecipe(exporter, Ingredient.fromTag(TagContent.RAW_WHITE_DYE), Items.WHITE_DYE, "dyes/white");
         addPulverizerRecipe(exporter, Ingredient.fromTag(TagContent.RAW_LIGHT_GRAY_DYE), Items.WHITE_DYE, "dyes/light_gray");
@@ -251,7 +252,7 @@ public class RecipeGenerator extends FabricRecipeProvider {
         offerGeneratorRecipe(exporter, BlockContent.BIO_GENERATOR_BLOCK.asItem(), Ingredient.ofItems(BlockContent.BASIC_GENERATOR_BLOCK.asItem()), Ingredient.ofItems(ItemContent.MAGNETIC_COIL), Ingredient.ofItems(ItemContent.FLUX_GATE), Ingredient.ofItems(ItemContent.BIOSTEEL_INGOT), "biogen");
         // lava generator
         offerGeneratorRecipe(exporter, BlockContent.LAVA_GENERATOR_BLOCK.asItem(), Ingredient.ofItems(BlockContent.BASIC_GENERATOR_BLOCK.asItem()), Ingredient.fromTag(TagContent.MACHINE_PLATING), Ingredient.ofItems(ItemContent.MAGNETIC_COIL), Ingredient.ofItems(ItemContent.ELECTRUM_INGOT), "lavagen");
-         // steam engine
+        // steam engine
         offerGeneratorRecipe(exporter, BlockContent.STEAM_ENGINE_BLOCK.asItem(), Ingredient.ofItems(BlockContent.BASIC_GENERATOR_BLOCK.asItem()), Ingredient.ofItems(Items.COPPER_INGOT), Ingredient.ofItems(ItemContent.MAGNETIC_COIL), Ingredient.ofItems(ItemContent.ELECTRUM_INGOT), "steamgen");
         // diesel generator
         offerGeneratorRecipe(exporter, BlockContent.FUEL_GENERATOR_BLOCK.asItem(), Ingredient.fromTag(TagContent.MACHINE_PLATING), Ingredient.ofItems(BlockContent.BASIC_GENERATOR_BLOCK), Ingredient.ofItems(ItemContent.ENDERIC_LENS), Ingredient.fromTag(TagContent.STEEL_INGOTS), "fuelgen");
@@ -259,8 +260,8 @@ public class RecipeGenerator extends FabricRecipeProvider {
         offerGeneratorRecipe(exporter, BlockContent.BIG_SOLAR_PANEL_BLOCK.asItem(), Ingredient.ofItems(BlockContent.BASIC_GENERATOR_BLOCK.asItem()), Ingredient.ofItems(ItemContent.FLUX_GATE), Ingredient.ofItems(ItemContent.ADVANCED_BATTERY), Ingredient.ofItems(ItemContent.FLUXITE), "solar");
         
         // charger
-        offerAtomicForgeRecipe(exporter, BlockContent.CHARGER_BLOCK.asItem(), of(Items.CHEST),  of(BlockContent.ENERGY_PIPE), of(Items.REDSTONE_BLOCK), of(Items.DISPENSER), of(TagContent.STEEL_INGOTS), "charger");
-        offerAtomicForgeRecipe(exporter, BlockContent.CHARGER_BLOCK.asItem(), of(Items.CHEST),  of(BlockContent.ENERGY_PIPE), of(ItemContent.PROCESSING_UNIT), of(Items.DISPENSER), of(TagContent.STEEL_INGOTS), "chargeralt");
+        offerAtomicForgeRecipe(exporter, BlockContent.CHARGER_BLOCK.asItem(), of(Items.CHEST), of(BlockContent.ENERGY_PIPE), of(Items.REDSTONE_BLOCK), of(Items.DISPENSER), of(TagContent.STEEL_INGOTS), "charger");
+        offerAtomicForgeRecipe(exporter, BlockContent.CHARGER_BLOCK.asItem(), of(Items.CHEST), of(BlockContent.ENERGY_PIPE), of(ItemContent.PROCESSING_UNIT), of(Items.DISPENSER), of(TagContent.STEEL_INGOTS), "chargeralt");
         
         // small storage
         offerAtomicForgeRecipe(exporter, BlockContent.SMALL_STORAGE_BLOCK.asItem(), Ingredient.ofItems(ItemContent.BASIC_BATTERY), Ingredient.fromTag(TagContent.SILICON), Ingredient.ofItems(ItemContent.MAGNETIC_COIL), Ingredient.fromTag(TagContent.NICKEL_INGOTS), Ingredient.fromTag(TagContent.WIRES), "smallstorage");
@@ -303,7 +304,7 @@ public class RecipeGenerator extends FabricRecipeProvider {
         // enchanter
         offerGeneratorRecipe(exporter, BlockContent.ENCHANTER_BLOCK.asItem(), Ingredient.ofItems(ItemContent.DURATIUM_INGOT), Ingredient.ofItems(ItemContent.ENERGITE_INGOT), Ingredient.ofItems(BlockContent.ENCHANTMENT_CATALYST_BLOCK.asItem()), Ingredient.ofItems(Items.BOOK), "enchanter");
         // spawner
-        offerTankRecipe(exporter, BlockContent.SPAWNER_CONTROLLER_BLOCK.asItem(), Ingredient.ofItems(BlockContent.SPAWNER_CAGE_BLOCK), Ingredient.ofItems(BlockContent.SPAWNER_CAGE_BLOCK), Ingredient.ofItems(BlockContent.ENCHANTMENT_CATALYST_BLOCK), "spawner");
+        offerTankRecipe(exporter, BlockContent.SPAWNER_CONTROLLER_BLOCK.asItem(), Ingredient.ofItems(BlockContent.SPAWNER_CAGE_BLOCK), Ingredient.ofItems(Blocks.RESPAWN_ANCHOR), Ingredient.ofItems(BlockContent.ENCHANTMENT_CATALYST_BLOCK), "spawner");
         // spawner cage
         offerInsulatedCableRecipe(exporter, new ItemStack(BlockContent.SPAWNER_CAGE_BLOCK, 2), Ingredient.ofItems(ItemContent.PLASTIC_SHEET), Ingredient.ofItems(Items.IRON_BARS), "cage");
         // withered rose
@@ -430,6 +431,23 @@ public class RecipeGenerator extends FabricRecipeProvider {
         offerMotorRecipe(exporter, ItemContent.OVERCHARGED_CRYSTAL, Ingredient.ofItems(Items.AMETHYST_BLOCK), Ingredient.ofItems(ItemContent.ADVANCED_BATTERY), Ingredient.ofItems(BlockContent.SUPERCONDUCTOR.asItem()), "overchargedcrystal");
         addAssemblerRecipe(exporter, Ingredient.ofItems(ItemContent.FLUX_GATE), Ingredient.fromTag(TagContent.WIRES), Ingredient.ofItems(ItemContent.dubious_CONTAINER), Ingredient.ofItems(ItemContent.ENERGITE_INGOT), BlockContent.SUPERCONDUCTOR.asItem(), 2f, "superconductor");
         addAtomicForgeRecipe(exporter, Ingredient.ofItems(ItemContent.OVERCHARGED_CRYSTAL), Ingredient.ofItems(ItemContent.HEISENBERG_COMPENSATOR), ItemContent.PROMETHEUM_INGOT, 1000, "prometheum");
+    }
+    
+    private void addCompactingRecipes(RecipeExporter exporter) {
+        addCompactingRecipe(exporter, BlockContent.STEEL_BLOCK, ItemContent.STEEL_INGOT);
+        addCompactingRecipe(exporter, BlockContent.ENERGITE_BLOCK, ItemContent.ENERGITE_INGOT);
+        addCompactingRecipe(exporter, BlockContent.NICKEL_BLOCK, ItemContent.NICKEL_INGOT);
+        addCompactingRecipe(exporter, BlockContent.BIOSTEEL_BLOCK, ItemContent.BIOSTEEL_INGOT);
+        addCompactingRecipe(exporter, BlockContent.PLATINUM_BLOCK, ItemContent.PLATINUM_INGOT);
+        addCompactingRecipe(exporter, BlockContent.ADAMANT_BLOCK, ItemContent.ADAMANT_INGOT);
+        addCompactingRecipe(exporter, BlockContent.ELECTRUM_BLOCK, ItemContent.ELECTRUM_INGOT);
+        addCompactingRecipe(exporter, BlockContent.DURATIUM_BLOCK, ItemContent.DURATIUM_INGOT);
+        addCompactingRecipe(exporter, BlockContent.BIOMASS_BLOCK, ItemContent.BIOMASS);
+        addCompactingRecipe(exporter, BlockContent.PLASTIC_BLOCK, ItemContent.PLASTIC_SHEET);
+        addCompactingRecipe(exporter, BlockContent.FLUXITE_BLOCK, ItemContent.FLUXITE);
+        addCompactingRecipe(exporter, BlockContent.SILICON_BLOCK, ItemContent.SILICON);
+        addCompactingRecipe(exporter, BlockContent.RAW_NICKEL_BLOCK, ItemContent.RAW_NICKEL);
+        addCompactingRecipe(exporter, BlockContent.RAW_PLATINUM_BLOCK, ItemContent.RAW_PLATINUM);
     }
     
     private void addOreChains(RecipeExporter exporter) {
@@ -635,6 +653,7 @@ public class RecipeGenerator extends FabricRecipeProvider {
     private void addDustRecipe(RecipeExporter exporter, Ingredient ingot, Item dust, String suffix) {
         addDustRecipe(exporter, ingot, dust, null, suffix);
     }
+    
     private void addDustRecipe(RecipeExporter exporter, Ingredient ingot, Item dust, Item ingotSmelted, String suffix) {
         addPulverizerRecipe(exporter, ingot, dust, suffix);
         addGrinderRecipe(exporter, ingot, dust, suffix);
@@ -656,7 +675,7 @@ public class RecipeGenerator extends FabricRecipeProvider {
     public static void addGrinderRecipe(RecipeExporter exporter, Ingredient ingot, Item dust, int dustCount, String suffix) {
         addGrinderRecipe(exporter, ingot, List.of(new ItemStack(dust, dustCount)), suffix);
     }
-
+    
     public static void addGrinderRecipe(RecipeExporter exporter, Ingredient ingot, List<ItemStack> outputs, String suffix) {
         var grinderDefaultSpeed = 200;
         
@@ -692,9 +711,14 @@ public class RecipeGenerator extends FabricRecipeProvider {
         exporter.accept(Oritech.id("assembler/" + suffix), entry, null);
     }
     
+    private void addCompactingRecipe(RecipeExporter exporter, ItemConvertible block, ItemConvertible item) {
+        RecipeProvider.offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, item, RecipeCategory.MISC, block, RecipeProvider.getRecipeName(block) + "block", null, RecipeProvider.getRecipeName(block) + "blockinv", null);
+    }
+    
     private void addCentrifugeRecipe(RecipeExporter exporter, Ingredient input, Item result, float timeMultiplier, String suffix) {
         addCentrifugeRecipe(exporter, input, result, 1, timeMultiplier, suffix);
     }
+    
     private void addCentrifugeRecipe(RecipeExporter exporter, Ingredient input, Item result, int count, float timeMultiplier, String suffix) {
         var defaultSpeed = 300;
         var speed = (int) (defaultSpeed * timeMultiplier);
@@ -768,7 +792,7 @@ public class RecipeGenerator extends FabricRecipeProvider {
     private void addMetalProcessingChain(RecipeExporter exporter, Ingredient oreInput, Ingredient rawOre, Item rawMain, Item rawSecondary, Item clump, Item smallClump,
                                          Item smallSecondaryClump, Item dust, Item smallDust, Item smallSecondaryDust, Item gem, Ingredient gemCatalyst, Item nugget,
                                          Item ingot, float timeMultiplier, String suffix, int byproductAmount) {
-                
+        
         // ore block -> raw ores
         var pulverizerOre = new OritechRecipe((int) (400 * timeMultiplier), List.of(oreInput), List.of(new ItemStack(rawMain, 2)), RecipeContent.PULVERIZER, null, null);
         var grinderOre = new OritechRecipe((int) (400 * timeMultiplier), List.of(oreInput), List.of(new ItemStack(rawMain, 2), new ItemStack(rawSecondary, 1)), RecipeContent.GRINDER, null, null);
@@ -838,6 +862,7 @@ public class RecipeGenerator extends FabricRecipeProvider {
     public void offerManualAlloyRecipe(RecipeExporter exporter, Item output, Ingredient A, Ingredient B, String suffix) {
         offerManualAlloyRecipe(exporter, output, A, B, 1, suffix);
     }
+    
     public void offerManualAlloyRecipe(RecipeExporter exporter, Item output, Ingredient A, Ingredient B, int count, String suffix) {
         var builder = ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, output, count).input('a', A).input('b', B).pattern("aa ").pattern("bb ");
         builder.criterion(hasItem(output), conditionsFromItem(output)).offerTo(exporter, "crafting/alloy/" + suffix);
@@ -975,7 +1000,7 @@ public class RecipeGenerator extends FabricRecipeProvider {
                         .pattern("oio");
         builder.criterion(hasItem(output), conditionsFromItem(output)).offerTo(exporter, "crafting/" + suffix);
     }
-
+    
     public void offerMachinePlatingRecipe(RecipeExporter exporter, Item output, Ingredient side, Ingredient edge, Ingredient core, int count, String suffix) {
         var builder = ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, output, count).input('a', side).input('e', edge).input('c', core)
                         .pattern("eae")
@@ -991,13 +1016,13 @@ public class RecipeGenerator extends FabricRecipeProvider {
                         .pattern("aa ");
         builder.criterion(hasItem(output), conditionsFromItem(output)).offerTo(exporter, "crafting/" + suffix);
     }
-
+    
     public void offerSlabRecipe(RecipeExporter exporter, Item output, Ingredient A, String suffix) {
         var builder = ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, output, 6).input('a', A)
                         .pattern("aaa");
         builder.criterion(hasItem(output), conditionsFromItem(output)).offerTo(exporter, "crafting/slab/" + suffix);
     }
-
+    
     public void offerStairsRecipe(RecipeExporter exporter, Item output, Ingredient A, String suffix) {
         var builder = ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, output, 4).input('a', A)
                         .pattern("a  ")
@@ -1005,7 +1030,7 @@ public class RecipeGenerator extends FabricRecipeProvider {
                         .pattern("aaa");
         builder.criterion(hasItem(output), conditionsFromItem(output)).offerTo(exporter, "crafting/stairs/" + suffix);
     }
-
+    
     public void offerPressurePlateRecipe(RecipeExporter exporter, Item output, Ingredient A, String suffix) {
         var builder = ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, output, 1).input('a', A)
                         .pattern("aa");
