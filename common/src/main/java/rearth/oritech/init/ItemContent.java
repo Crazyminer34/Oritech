@@ -106,7 +106,7 @@ public class ItemContent implements ArchitecturyRegistryContainer<Item> {
     public static final Item PROCESSING_UNIT = new Item(new Item.Settings());
     public static final Item ADVANCED_COMPUTING_ENGINE = new Item(new Item.Settings());
     public static final Item SILICON_WAFER = new Item(new Item.Settings());
-    public static final Item DUBIOS_CONTAINER = new MobCaptureItem(new Item.Settings().maxCount(16), List.of(EntityType.VEX, EntityType.ALLAY, EntityType.PHANTOM));
+    public static final Item DUBIOUS_CONTAINER = new MobCaptureItem(new Item.Settings().maxCount(16), List.of(EntityType.VEX, EntityType.ALLAY, EntityType.PHANTOM));
     public static final Item ENDERIC_LENS = new Item(new Item.Settings());
     public static final Item FLUX_GATE = new Item(new Item.Settings());
     public static final Item ADVANCED_BATTERY = new Item(new Item.Settings());
