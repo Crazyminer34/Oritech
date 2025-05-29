@@ -191,13 +191,21 @@ public class OritechRecipeGenerator extends RecipeProvider {
         offerLegsRecipe(exporter, ToolsContent.EXO_LEGGINGS, of(TagContent.MACHINE_PLATING), of(ItemContent.MOTOR), "exolegs");
         // feet (silicon + plating)
         offerFeetRecipe(exporter, ToolsContent.EXO_BOOTS, of(TagContent.MACHINE_PLATING), of(TagContent.SILICON), "exoboots");
-        
+        // reinforced helmet (Exo Helmet + Exo Steel)
+        offerHelmetRecipe(exporter, ToolsContent.REINFORCED_EXO_HELMET, of(ItemContent.EXO_STEEL), of(ToolsContent.EXO_HELMET), "reinforcedexohelm");
+        // reinforced legs (Exo Leggings + Exo Steel)
+        offerLegsRecipe(exporter, ToolsContent.REINFORCED_EXO_LEGGINGS, of(ItemContent.EXO_STEEL), of(ToolsContent.EXO_LEGGINGS), "reinforcedexolegs");
+        // reinforced feet (Exo Boots + Exo Steel)
+        offerBootRecipe(exporter, ToolsContent.REINFORCED_EXO_BOOTS, of(ItemContent.EXO_STEEL), of(ToolsContent.EXO_BOOTS), "reinforcedexoboots");
+
         // basic jetpack main
         offerParticleMotorRecipe(exporter, ToolsContent.JETPACK, of(TagContent.STEEL_INGOTS), of(cItemTag("leathers")), of(ItemContent.ADVANCED_BATTERY), of(Items.GUNPOWDER), "basicjetpack");
         // jetpack alt
         offerParticleMotorRecipe(exporter, ToolsContent.JETPACK, of(TagContent.STEEL_INGOTS), of(cItemTag("leathers")), of(Items.REDSTONE_BLOCK), of(Items.BLAZE_POWDER), "basicjetpackalt");
         // exo jetpack
         offerGeneratorRecipe(exporter, ToolsContent.EXO_JETPACK, of(ToolsContent.JETPACK), of(BlockContent.SMALL_TANK_BLOCK), of(ToolsContent.EXO_CHESTPLATE), of(TagContent.PLASTIC_PLATES), "exojetpack");
+        // reinforced exo jetpack
+        offerMachineCoreRecipe(exporter, ToolsContent.REINFORCED_EXO_JETPACK, of(ItemContent.EXO_STEEL), of(ToolsContent.EXO_JETPACK), "reinforcedexojetpack");
         // boosted elytra
         offerGeneratorRecipe(exporter, ToolsContent.JETPACK_ELYTRA, of(Items.ELYTRA), of(ItemContent.PROCESSING_UNIT), of(ToolsContent.JETPACK), of(Items.GUNPOWDER), "boostedelytra");
         // exo elytra (exo jetpack + elytra)
@@ -1287,7 +1295,7 @@ public class OritechRecipeGenerator extends RecipeProvider {
                         .pattern(" s ");
         builder.criterion(hasItem(output), conditionsFromItem(output)).offerTo(exporter, Oritech.id("crafting/" + suffix));
     }
-    
+
     public void offerMachineCoreRecipe(RecipeExporter exporter, Item output, Ingredient base, Ingredient alt, String suffix) {
         offerMachineCoreRecipe(exporter, output, 1, base, alt, suffix);
     }
@@ -1369,6 +1377,14 @@ public class OritechRecipeGenerator extends RecipeProvider {
                         .pattern("   ")
                         .pattern("p p")
                         .pattern("c c");
+        builder.criterion(hasItem(output), conditionsFromItem(output)).offerTo(exporter, Oritech.id("crafting/" + suffix));
+    }
+
+    public void offerBootRecipe(RecipeExporter exporter, Item output, Ingredient exosteel, Ingredient boots, String suffix) {
+        var builder = ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, output, 1).input('p', exosteel).input('c', boots)
+                .pattern("   ")
+                .pattern("pcp")
+                .pattern("p p");
         builder.criterion(hasItem(output), conditionsFromItem(output)).offerTo(exporter, Oritech.id("crafting/" + suffix));
     }
     

@@ -91,8 +91,9 @@ public class ItemTagGenerator extends FabricTagProvider.ItemTagProvider {
           .add(ItemContent.ELECTRUM_INGOT)
           .add(ItemContent.ADAMANT_INGOT)
           .add(ItemContent.ENERGITE_INGOT)
-          .add(ItemContent.STEEL_INGOT);
-        
+          .add(ItemContent.STEEL_INGOT)
+          .add(ItemContent.EXO_STEEL);
+
         getOrCreateTagBuilder(getIngotTag("nickel")).add(ItemContent.NICKEL_INGOT);
         getOrCreateTagBuilder(getIngotTag("platinum")).add(ItemContent.PLATINUM_INGOT);
         getOrCreateTagBuilder(getIngotTag("biosteel")).add(ItemContent.BIOSTEEL_INGOT);
@@ -102,7 +103,7 @@ public class ItemTagGenerator extends FabricTagProvider.ItemTagProvider {
         getOrCreateTagBuilder(getIngotTag("adamant")).add(ItemContent.ADAMANT_INGOT);
         getOrCreateTagBuilder(getIngotTag("energite")).add(ItemContent.ENERGITE_INGOT);
         getOrCreateTagBuilder(getIngotTag("steel")).add(ItemContent.STEEL_INGOT);
-        
+        getOrCreateTagBuilder(getIngotTag("exosteel")).add(ItemContent.EXO_STEEL);
         
         // gems
         getOrCreateTagBuilder(ConventionalItemTags.GEMS)
@@ -274,30 +275,38 @@ public class ItemTagGenerator extends FabricTagProvider.ItemTagProvider {
           .add(ToolsContent.HAND_DRILL, ToolsContent.PROMETHIUM_PICKAXE);
         
         getOrCreateTagBuilder(ItemTags.HEAD_ARMOR_ENCHANTABLE)
-          .add(ToolsContent.EXO_HELMET);
+          .add(ToolsContent.EXO_HELMET)
+          .add(ToolsContent.REINFORCED_EXO_HELMET);
         getOrCreateTagBuilder(ItemTags.CHEST_ARMOR_ENCHANTABLE)
           .add(ToolsContent.JETPACK)
           .add(ToolsContent.JETPACK_ELYTRA)
           .add(ToolsContent.JETPACK_EXO_ELYTRA)
           .add(ToolsContent.EXO_JETPACK)
+          .add(ToolsContent.REINFORCED_EXO_JETPACK)
           .add(ToolsContent.EXO_CHESTPLATE);
         getOrCreateTagBuilder(ItemTags.LEG_ARMOR_ENCHANTABLE)
-          .add(ToolsContent.EXO_LEGGINGS);
+          .add(ToolsContent.EXO_LEGGINGS)
+          .add(ToolsContent.REINFORCED_EXO_LEGGINGS);
         getOrCreateTagBuilder(ItemTags.FOOT_ARMOR_ENCHANTABLE)
-          .add(ToolsContent.EXO_BOOTS);
+          .add(ToolsContent.EXO_BOOTS)
+          .add(ToolsContent.REINFORCED_EXO_BOOTS);
         
         getOrCreateTagBuilder(ItemTags.HEAD_ARMOR)
-          .add(ToolsContent.EXO_HELMET);
+          .add(ToolsContent.EXO_HELMET)
+          .add(ToolsContent.REINFORCED_EXO_HELMET);
         getOrCreateTagBuilder(ItemTags.CHEST_ARMOR)
           .add(ToolsContent.JETPACK)
           .add(ToolsContent.JETPACK_ELYTRA)
           .add(ToolsContent.JETPACK_EXO_ELYTRA)
           .add(ToolsContent.EXO_JETPACK)
+          .add(ToolsContent.REINFORCED_EXO_JETPACK)
           .add(ToolsContent.EXO_CHESTPLATE);
         getOrCreateTagBuilder(ItemTags.LEG_ARMOR)
-          .add(ToolsContent.EXO_LEGGINGS);
+          .add(ToolsContent.EXO_LEGGINGS)
+          .add(ToolsContent.REINFORCED_EXO_LEGGINGS);
         getOrCreateTagBuilder(ItemTags.FOOT_ARMOR)
-          .add(ToolsContent.EXO_BOOTS);
+          .add(ToolsContent.EXO_BOOTS)
+          .add(ToolsContent.REINFORCED_EXO_BOOTS);
         
         getOrCreateTagBuilder(ItemTags.DURABILITY_ENCHANTABLE)
           .add(ItemContent.WRENCH);

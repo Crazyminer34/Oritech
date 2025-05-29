@@ -37,6 +37,7 @@ public class ToolsContent implements ArchitecturyRegistryContainer<Item> {
     protected static final Item.Settings JETPACK_SETTINGS = UNBREAKING_SETTINGS; // .component(ComponentContent.STORED_FLUID.get(), FluidStack.create(FluidContent.STILL_FUEL.get().getStill(), 0)); //.component(Oritech.ENERGY_CONTENT.componentType(), 0L);
     
     public static final RegistryEntry<ArmorMaterial> EXOSUIT_MATERIAL = ArmorMaterials.IRON;
+    public static final RegistryEntry<ArmorMaterial> REINFORCED_MATERIAL = ArmorMaterials.NETHERITE;
     public static final RegistryEntry<ArmorMaterial> JETPACK_MATERIAL = ArmorMaterials.LEATHER;
     public static final ToolMaterial ELECTRIC_MATERIAL = new ElectricToolMaterial();
     public static final ToolMaterial PROMETHIUM_MATERIAL = new PromethiumToolMaterial();
@@ -45,9 +46,14 @@ public class ToolsContent implements ArchitecturyRegistryContainer<Item> {
     public static final Item EXO_CHESTPLATE = new BackstorageExoArmorItem(EXOSUIT_MATERIAL, ArmorItem.Type.CHESTPLATE, ELECTRIC_SETTINGS);
     public static final Item EXO_LEGGINGS = new ExoArmorItem(EXOSUIT_MATERIAL, ArmorItem.Type.LEGGINGS, UNBREAKING_SETTINGS);
     public static final Item EXO_BOOTS = new ExoArmorItem(EXOSUIT_MATERIAL, ArmorItem.Type.BOOTS, UNBREAKING_SETTINGS);
+    public static final Item REINFORCED_EXO_HELMET = new ReinforcedExoArmorItem(REINFORCED_MATERIAL, ArmorItem.Type.HELMET, UNBREAKING_SETTINGS);
+    public static final Item REINFORCED_EXO_LEGGINGS = new ReinforcedExoArmorItem(REINFORCED_MATERIAL, ArmorItem.Type.LEGGINGS, UNBREAKING_SETTINGS);
+    public static final Item REINFORCED_EXO_BOOTS = new ReinforcedExoArmorItem(REINFORCED_MATERIAL, ArmorItem.Type.BOOTS, UNBREAKING_SETTINGS);
+
     
     public static final Item JETPACK = new JetpackItem(JETPACK_MATERIAL, ArmorItem.Type.CHESTPLATE, JETPACK_SETTINGS);
     public static final Item EXO_JETPACK = new JetpackExoArmorItem(EXOSUIT_MATERIAL, ArmorItem.Type.CHESTPLATE, JETPACK_SETTINGS);
+    public static final Item REINFORCED_EXO_JETPACK = new ReinforcedJetpackExoArmorItem(REINFORCED_MATERIAL, ArmorItem.Type.CHESTPLATE, JETPACK_SETTINGS);
     public static final Item JETPACK_ELYTRA = new JetpackElytraItem(JETPACK_MATERIAL, ArmorItem.Type.CHESTPLATE, JETPACK_SETTINGS);
     public static final Item JETPACK_EXO_ELYTRA = new JetpackExoElytraItem(EXOSUIT_MATERIAL, ArmorItem.Type.CHESTPLATE, JETPACK_SETTINGS);
     

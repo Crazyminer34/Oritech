@@ -788,6 +788,7 @@
   "item.oritech.electrum_dust": "Electrum Dust",
   "item.oritech.energite_ingot": "Energite Ingot",
   "item.oritech.energite_dust": "Energite Dust",
+  "item.oritech.exo_steel": "Exo Steel",
   "item.oritech.prometheum_ingot": [
     {
       "text": "Prometheum",
@@ -837,10 +838,14 @@
   "item.oritech.exo_chestplate": "Exo Chestplate",
   "item.oritech.exo_leggings": "Exo Leggings",
   "item.oritech.exo_boots": "Exo Boots",
+  "item.oritech.reinforced_exo_helmet": "Reinforced Exo Helmet",
+  "item.oritech.reinforced_exo_leggings": "Reinforced Exo Leggings",
+  "item.oritech.reinforced_exo_boots": "Reinforced Exo Boots",
   "item.oritech.chainsaw": "Chainsaw",
   "item.oritech.hand_drill": "Hand Drill",
   "item.oritech.jetpack": "Jetpack",
   "item.oritech.exo_jetpack": "Exo Jetpack",
+  "item.oritech.reinforced_exo_jetpack": "Reinforced Exo Jetpack",
   "item.oritech.jetpack_elytra": "Boosted Elytra",
   "item.oritech.jetpack_exo_elytra": "Boosted Exo Elytra",
   "item.oritech.raw_uranium": "Raw Uranium",

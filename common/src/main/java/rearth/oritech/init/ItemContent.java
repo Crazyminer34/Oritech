@@ -93,6 +93,7 @@ public class ItemContent implements ArchitecturyRegistryContainer<Item> {
     public static final Item PROMETHEUM_INGOT = new Item(new Item.Settings());
     public static final Item STEEL_INGOT = new Item(new Item.Settings());
     public static final Item STEEL_DUST = new Item(new Item.Settings());
+    public static final Item EXO_STEEL = new Item(new Item.Settings());
     //endregion
     
     // region crafting components
