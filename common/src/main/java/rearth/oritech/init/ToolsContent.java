@@ -47,6 +47,7 @@ public class ToolsContent implements ArchitecturyRegistryContainer<Item> {
     public static final Item EXO_LEGGINGS = new ExoArmorItem(EXOSUIT_MATERIAL, ArmorItem.Type.LEGGINGS, UNBREAKING_SETTINGS);
     public static final Item EXO_BOOTS = new ExoArmorItem(EXOSUIT_MATERIAL, ArmorItem.Type.BOOTS, UNBREAKING_SETTINGS);
     public static final Item REINFORCED_EXO_HELMET = new ReinforcedExoArmorItem(REINFORCED_MATERIAL, ArmorItem.Type.HELMET, UNBREAKING_SETTINGS);
+    public static final Item REINFORCED_EXO_CHESTPLATE = new BackstorageReinforcedExoArmorItem(REINFORCED_MATERIAL, ArmorItem.Type.CHESTPLATE, ELECTRIC_SETTINGS);
     public static final Item REINFORCED_EXO_LEGGINGS = new ReinforcedExoArmorItem(REINFORCED_MATERIAL, ArmorItem.Type.LEGGINGS, UNBREAKING_SETTINGS);
     public static final Item REINFORCED_EXO_BOOTS = new ReinforcedExoArmorItem(REINFORCED_MATERIAL, ArmorItem.Type.BOOTS, UNBREAKING_SETTINGS);
 
@@ -56,7 +57,7 @@ public class ToolsContent implements ArchitecturyRegistryContainer<Item> {
     public static final Item REINFORCED_EXO_JETPACK = new ReinforcedJetpackExoArmorItem(REINFORCED_MATERIAL, ArmorItem.Type.CHESTPLATE, JETPACK_SETTINGS);
     public static final Item JETPACK_ELYTRA = new JetpackElytraItem(JETPACK_MATERIAL, ArmorItem.Type.CHESTPLATE, JETPACK_SETTINGS);
     public static final Item JETPACK_EXO_ELYTRA = new JetpackExoElytraItem(EXOSUIT_MATERIAL, ArmorItem.Type.CHESTPLATE, JETPACK_SETTINGS);
-    
+    public static final Item REINFORCED_JETPACK_EXO_ELYTRA = new ReinforcedJetpackExoElytraItem(REINFORCED_MATERIAL, ArmorItem.Type.CHESTPLATE, JETPACK_SETTINGS);
     public static final Item PORTABLE_LASER = new PortableLaserItem(UNBREAKING_SETTINGS);
     
     public static final Item CHAINSAW = new ChainsawItem(ELECTRIC_MATERIAL, ELECTRIC_SETTINGS.attributeModifiers(AxeItem.createAttributeModifiers(ELECTRIC_MATERIAL, 5f, -2.4f)));
@@ -107,7 +108,7 @@ public class ToolsContent implements ArchitecturyRegistryContainer<Item> {
                 var boots = player.getEquippedStack(EquipmentSlot.FEET);
                 
                 if (boots == null) return EventResult.pass();
-                if (!(boots.getItem() instanceof ExoArmorItem)) return EventResult.pass();
+                if (!(boots.getItem() instanceof ExoArmorItem) && !(boots.getItem() instanceof ReinforcedExoArmorItem)) return EventResult.pass();
                 
                 player.getWorld().playSound(null, player.getBlockPos(), SoundContent.SHORT_SERVO, SoundCategory.PLAYERS, 0.2f, 1.0f);
                 

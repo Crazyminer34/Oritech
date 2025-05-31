@@ -191,14 +191,16 @@ public class OritechRecipeGenerator extends RecipeProvider {
         offerLegsRecipe(exporter, ToolsContent.EXO_LEGGINGS, of(TagContent.MACHINE_PLATING), of(ItemContent.MOTOR), "exolegs");
         // feet (silicon + plating)
         offerFeetRecipe(exporter, ToolsContent.EXO_BOOTS, of(TagContent.MACHINE_PLATING), of(TagContent.SILICON), "exoboots");
-        // reinforced helmet (Exo Helmet + Exo Steel)
+        // reinforced helmet (exo Helmet + exo steel)
         offerHelmetRecipe(exporter, ToolsContent.REINFORCED_EXO_HELMET, of(ItemContent.EXO_STEEL), of(ToolsContent.EXO_HELMET), "reinforcedexohelm");
-        // reinforced legs (Exo Leggings + Exo Steel)
+        // reinforced chestplate (exo chestplate + exo steel)
+        offerMachineCoreRecipe(exporter, ToolsContent.REINFORCED_EXO_CHESTPLATE, of(ItemContent.EXO_STEEL), of(ToolsContent.EXO_CHESTPLATE), "reinforcedexochest");
+        // reinforced legs (exo leggings + exo steel)
         offerLegsRecipe(exporter, ToolsContent.REINFORCED_EXO_LEGGINGS, of(ItemContent.EXO_STEEL), of(ToolsContent.EXO_LEGGINGS), "reinforcedexolegs");
-        // reinforced feet (Exo Boots + Exo Steel)
+        // reinforced feet (exo boots + exo steel)
         offerBootRecipe(exporter, ToolsContent.REINFORCED_EXO_BOOTS, of(ItemContent.EXO_STEEL), of(ToolsContent.EXO_BOOTS), "reinforcedexoboots");
 
-        // basic jetpack main
+        // jetpack
         offerParticleMotorRecipe(exporter, ToolsContent.JETPACK, of(TagContent.STEEL_INGOTS), of(cItemTag("leathers")), of(ItemContent.ADVANCED_BATTERY), of(Items.GUNPOWDER), "basicjetpack");
         // jetpack alt
         offerParticleMotorRecipe(exporter, ToolsContent.JETPACK, of(TagContent.STEEL_INGOTS), of(cItemTag("leathers")), of(Items.REDSTONE_BLOCK), of(Items.BLAZE_POWDER), "basicjetpackalt");
@@ -206,13 +208,20 @@ public class OritechRecipeGenerator extends RecipeProvider {
         offerGeneratorRecipe(exporter, ToolsContent.EXO_JETPACK, of(ToolsContent.JETPACK), of(BlockContent.SMALL_TANK_BLOCK), of(ToolsContent.EXO_CHESTPLATE), of(TagContent.PLASTIC_PLATES), "exojetpack");
         // reinforced exo jetpack
         offerMachineCoreRecipe(exporter, ToolsContent.REINFORCED_EXO_JETPACK, of(ItemContent.EXO_STEEL), of(ToolsContent.EXO_JETPACK), "reinforcedexojetpack");
+        // reinforced exo jetpack alt
+        offerGeneratorRecipe(exporter, ToolsContent.REINFORCED_EXO_JETPACK, of(ToolsContent.JETPACK), of(BlockContent.SMALL_TANK_BLOCK), of(ToolsContent.REINFORCED_EXO_CHESTPLATE), of(TagContent.PLASTIC_PLATES), "reinforcedexojetpackalt");
         // boosted elytra
         offerGeneratorRecipe(exporter, ToolsContent.JETPACK_ELYTRA, of(Items.ELYTRA), of(ItemContent.PROCESSING_UNIT), of(ToolsContent.JETPACK), of(Items.GUNPOWDER), "boostedelytra");
         // exo elytra (exo jetpack + elytra)
         offerGeneratorRecipe(exporter, ToolsContent.JETPACK_EXO_ELYTRA, of(ToolsContent.EXO_JETPACK), of(ItemContent.PROCESSING_UNIT), of(Items.ELYTRA), of(Items.GUNPOWDER), "exoboostedelytra");
         // exo elytra (boosted elytra + exo chestplate)
         offerGeneratorRecipe(exporter, ToolsContent.JETPACK_EXO_ELYTRA, of(ToolsContent.EXO_CHESTPLATE), of(BlockContent.SMALL_TANK_BLOCK), of(ToolsContent.JETPACK_ELYTRA), of(TagContent.PLASTIC_PLATES), "exoboostedelytraalt");
-        
+        // reinforced exo elytra (boosted exo elytra + Exo Steel)
+        offerMachineCoreRecipe(exporter, ToolsContent.REINFORCED_JETPACK_EXO_ELYTRA, of(ItemContent.EXO_STEEL), of(ToolsContent.JETPACK_EXO_ELYTRA), "reinforcedexoboostedelytra");
+        // exo elytra (exo jetpack + elytra)
+        offerGeneratorRecipe(exporter, ToolsContent.REINFORCED_JETPACK_EXO_ELYTRA, of(ToolsContent.REINFORCED_EXO_JETPACK), of(ItemContent.PROCESSING_UNIT), of(Items.ELYTRA), of(Items.GUNPOWDER), "reinforcedexoboostedelytraalt1");
+        // exo elytra (boosted elytra + exo chestplate)
+        offerGeneratorRecipe(exporter, ToolsContent.REINFORCED_JETPACK_EXO_ELYTRA, of(ToolsContent.REINFORCED_EXO_CHESTPLATE), of(BlockContent.SMALL_TANK_BLOCK), of(ToolsContent.JETPACK_ELYTRA), of(TagContent.PLASTIC_PLATES), "reinforcedexoboostedelytraalt2");
     }
     
     private void addDecorative(RecipeExporter exporter) {

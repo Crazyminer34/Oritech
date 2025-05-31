@@ -10,6 +10,7 @@ import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import rearth.oritech.item.tools.armor.JetpackElytraItem;
 import rearth.oritech.item.tools.armor.JetpackExoElytraItem;
+import rearth.oritech.item.tools.armor.ReinforcedJetpackExoElytraItem;
 
 @Mixin(ElytraFeatureRenderer.class)
 public class ElytraFeatureRendererMixin {
@@ -21,7 +22,7 @@ public class ElytraFeatureRendererMixin {
     )
     private boolean oritech$canRenderJetpackElytra(boolean original, MatrixStack matrixStack, VertexConsumerProvider vertexConsumerProvider, int i, LivingEntity entity) {
         var item = entity.getEquippedStack(EquipmentSlot.CHEST).getItem();
-        return original || item instanceof JetpackElytraItem || item instanceof JetpackExoElytraItem;
+        return original || item instanceof JetpackElytraItem || item instanceof JetpackExoElytraItem || item instanceof ReinforcedJetpackExoElytraItem;
     }
     
 }

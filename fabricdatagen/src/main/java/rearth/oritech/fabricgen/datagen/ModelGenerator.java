@@ -228,6 +228,7 @@ public class ModelGenerator extends FabricModelProvider {
         itemModelGenerator.register(ToolsContent.EXO_HELMET, Models.GENERATED);
         itemModelGenerator.register(ToolsContent.REINFORCED_EXO_HELMET, Models.GENERATED);
         itemModelGenerator.register(ToolsContent.EXO_CHESTPLATE, Models.GENERATED);
+        itemModelGenerator.register(ToolsContent.REINFORCED_EXO_CHESTPLATE, Models.GENERATED);
         itemModelGenerator.register(ToolsContent.EXO_LEGGINGS, Models.GENERATED);
         itemModelGenerator.register(ToolsContent.REINFORCED_EXO_LEGGINGS, Models.GENERATED);
         itemModelGenerator.register(ToolsContent.EXO_BOOTS, Models.GENERATED);
@@ -239,6 +240,7 @@ public class ModelGenerator extends FabricModelProvider {
         itemModelGenerator.register(ToolsContent.REINFORCED_EXO_JETPACK, Models.GENERATED);
         itemModelGenerator.register(ToolsContent.JETPACK_ELYTRA, Models.GENERATED);
         itemModelGenerator.register(ToolsContent.JETPACK_EXO_ELYTRA, Models.GENERATED);
+        itemModelGenerator.register(ToolsContent.REINFORCED_JETPACK_EXO_ELYTRA, Models.GENERATED);
         
         for (var item : ItemContent.autoRegisteredModels) {
             itemModelGenerator.register(item, Models.GENERATED);

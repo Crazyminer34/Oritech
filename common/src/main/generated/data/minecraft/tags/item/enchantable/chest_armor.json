@@ -3,8 +3,10 @@
     "oritech:jetpack",
     "oritech:jetpack_elytra",
     "oritech:jetpack_exo_elytra",
+    "oritech:reinforced_jetpack_exo_elytra",
     "oritech:exo_jetpack",
     "oritech:reinforced_exo_jetpack",
-    "oritech:exo_chestplate"
+    "oritech:exo_chestplate",
+    "oritech:reinforced_exo_chestplate"
   ]
 }

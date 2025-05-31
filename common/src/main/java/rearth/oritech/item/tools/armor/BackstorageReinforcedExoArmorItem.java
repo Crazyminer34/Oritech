@@ -65,17 +65,17 @@ public class BackstorageReinforcedExoArmorItem extends ReinforcedExoArmorItem im
     
     @Override
     public long getEnergyCapacity(ItemStack stack) {
-        return Oritech.CONFIG.exoChestplate.energyCapacity();
+        return Oritech.CONFIG.reinforcedexoChestplate.energyCapacity();
     }
     
     @Override
     public long getEnergyMaxInput(ItemStack stack) {
-        return Oritech.CONFIG.exoChestplate.chargeSpeed();
+        return Oritech.CONFIG.reinforcedexoChestplate.chargeSpeed();
     }
     
     @Override
     public long getEnergyMaxOutput(ItemStack stack) {
-        return Oritech.CONFIG.exoChestplate.energyUsage();
+        return Oritech.CONFIG.reinforcedexoChestplate.energyUsage();
     }
     
     @Override

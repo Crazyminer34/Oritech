@@ -57,6 +57,12 @@ public class Config {
     @Nest
     public ToolData exoChestplate = new ToolData(5_000_000, 10_000, 10_000);
     @Nest
+    public JetpackData reinforcedexoJetpack = new JetpackData(10_000_000, 64 * FluidStackHooks.bucketAmount(), 256, (int) (15 * (FluidStackHooks.bucketAmount() / 1000)), 40_000, 2.2f);
+    @Nest
+    public JetpackData reinforcedexoElytraJetpack = new JetpackData(10_000_000, 64 * FluidStackHooks.bucketAmount(), 256, (int) (15 * (FluidStackHooks.bucketAmount() / 1000)), 40_000, 2f);
+    @Nest
+    public ToolData reinforcedexoChestplate = new ToolData(10_000_000, 10_000, 40_000);
+    @Nest
     public ToolData basicDrill = new ToolData(10_000, 10, 512);
     @Nest
     public ToolData chainSaw = new ToolData(10_000, 10, 512);

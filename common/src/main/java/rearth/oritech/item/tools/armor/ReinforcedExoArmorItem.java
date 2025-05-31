@@ -69,15 +69,15 @@ public class ReinforcedExoArmorItem extends ArmorItem implements GeoItem, ArmorE
         if (slotType != EquipmentSlot.LEGS) return super.getAttributeModifiers();
         
         return super.getAttributeModifiers()
-                 .with(EntityAttributes.GENERIC_MOVEMENT_SPEED, new EntityAttributeModifier(Oritech.id("exo_move_speed"), 0.2, EntityAttributeModifier.Operation.ADD_MULTIPLIED_BASE), AttributeModifierSlot.LEGS)
-                 .with(EntityAttributes.GENERIC_FLYING_SPEED, new EntityAttributeModifier(Oritech.id("exo_fly_speed"), 0.5, EntityAttributeModifier.Operation.ADD_MULTIPLIED_BASE), AttributeModifierSlot.LEGS);
+                 .with(EntityAttributes.GENERIC_MOVEMENT_SPEED, new EntityAttributeModifier(Oritech.id("exo_move_speed"), 0.4, EntityAttributeModifier.Operation.ADD_MULTIPLIED_BASE), AttributeModifierSlot.LEGS)
+                 .with(EntityAttributes.GENERIC_FLYING_SPEED, new EntityAttributeModifier(Oritech.id("exo_fly_speed"), 0.7, EntityAttributeModifier.Operation.ADD_MULTIPLIED_BASE), AttributeModifierSlot.LEGS);
     }
     
     @Override
     public void onEquipped(PlayerEntity playerEntity, ItemStack stack) {
         
         if (this.getSlotType() == EquipmentSlot.HEAD)
-            playerEntity.addStatusEffect(new StatusEffectInstance(StatusEffects.NIGHT_VISION, Integer.MAX_VALUE, 0, false, false, false));
+            playerEntity.addStatusEffect(new StatusEffectInstance(StatusEffects.NIGHT_VISION, Integer.MAX_VALUE, 2, false, false, false));
     }
     
     @Override

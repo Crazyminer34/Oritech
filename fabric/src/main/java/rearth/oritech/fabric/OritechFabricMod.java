@@ -10,6 +10,7 @@ import rearth.oritech.api.fluid.FluidApi;
 import rearth.oritech.api.item.ItemApi;
 import rearth.oritech.item.tools.armor.JetpackElytraItem;
 import rearth.oritech.item.tools.armor.JetpackExoElytraItem;
+import rearth.oritech.item.tools.armor.ReinforcedJetpackExoElytraItem;
 import rearth.oritech.item.tools.util.ArmorEventHandler;
 
 public final class OritechFabricMod implements ModInitializer {
@@ -41,6 +42,8 @@ public final class OritechFabricMod implements ModInitializer {
             if (chestStack.getItem() instanceof JetpackElytraItem jetpackElytraItem) {
                 return jetpackElytraItem.useCustomElytra(entity, chestStack, tickElytra);
             } else if (chestStack.getItem() instanceof JetpackExoElytraItem jetpackElytraItem) {
+                return jetpackElytraItem.useCustomElytra(entity, chestStack, tickElytra);
+            } else if (chestStack.getItem() instanceof ReinforcedJetpackExoElytraItem jetpackElytraItem) {
                 return jetpackElytraItem.useCustomElytra(entity, chestStack, tickElytra);
             }
             

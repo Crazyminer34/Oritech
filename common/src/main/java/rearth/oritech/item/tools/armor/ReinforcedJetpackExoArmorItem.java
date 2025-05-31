@@ -62,31 +62,31 @@ public class ReinforcedJetpackExoArmorItem extends BackstorageReinforcedExoArmor
     
     @Override
     public float getSpeed() {
-        return Oritech.CONFIG.exoJetpack.speed();
+        return Oritech.CONFIG.reinforcedexoJetpack.speed();
     }
     
     @Override
     public int getRfUsage() {
-        return Oritech.CONFIG.exoJetpack.energyUsage();
+        return Oritech.CONFIG.reinforcedexoJetpack.energyUsage();
     }
     
     @Override
     public int getFuelUsage() {
-        return Oritech.CONFIG.exoJetpack.fuelUsage();
+        return Oritech.CONFIG.reinforcedexoJetpack.fuelUsage();
     }
     
     @Override
     public long getFuelCapacity() {
-        return Oritech.CONFIG.exoJetpack.fuelCapacity();
+        return Oritech.CONFIG.reinforcedexoJetpack.fuelCapacity();
     }
     
     @Override
     public long getEnergyCapacity(ItemStack stack) {
-        return Oritech.CONFIG.exoJetpack.energyCapacity();
+        return Oritech.CONFIG.reinforcedexoJetpack.energyCapacity();
     }
     
     @Override
     public long getEnergyMaxInput(ItemStack stack) {
-        return Oritech.CONFIG.exoJetpack.chargeSpeed();
+        return Oritech.CONFIG.reinforcedexoJetpack.chargeSpeed();
     }
 }

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_reinforced_jetpack_exo_elytra": {
+      "conditions": {
+        "items": [
+          {
+            "items": "oritech:reinforced_jetpack_exo_elytra"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "oritech:crafting/reinforcedexoboostedelytraalt2"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_reinforced_jetpack_exo_elytra"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "oritech:crafting/reinforcedexoboostedelytraalt2"
+    ]
+  }
+}

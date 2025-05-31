@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "oritech:jetpack_exo_elytra"
+    },
+    "s": {
+      "item": "oritech:exo_steel"
+    }
+  },
+  "pattern": [
+    "sss",
+    "scs",
+    "sss"
+  ],
+  "result": {
+    "count": 1,
+    "id": "oritech:reinforced_jetpack_exo_elytra"
+  }
+}

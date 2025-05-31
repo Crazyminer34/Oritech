@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "oritech:exo_leggings"
+    },
+    "p": {
+      "item": "oritech:exo_steel"
+    }
+  },
+  "pattern": [
+    "ppp",
+    "pcp",
+    "p p"
+  ],
+  "result": {
+    "count": 1,
+    "id": "oritech:reinforced_exo_leggings"
+  }
+}

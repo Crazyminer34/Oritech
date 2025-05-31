@@ -281,9 +281,11 @@ public class ItemTagGenerator extends FabricTagProvider.ItemTagProvider {
           .add(ToolsContent.JETPACK)
           .add(ToolsContent.JETPACK_ELYTRA)
           .add(ToolsContent.JETPACK_EXO_ELYTRA)
+          .add(ToolsContent.REINFORCED_JETPACK_EXO_ELYTRA)
           .add(ToolsContent.EXO_JETPACK)
           .add(ToolsContent.REINFORCED_EXO_JETPACK)
-          .add(ToolsContent.EXO_CHESTPLATE);
+          .add(ToolsContent.EXO_CHESTPLATE)
+          .add(ToolsContent.REINFORCED_EXO_CHESTPLATE);
         getOrCreateTagBuilder(ItemTags.LEG_ARMOR_ENCHANTABLE)
           .add(ToolsContent.EXO_LEGGINGS)
           .add(ToolsContent.REINFORCED_EXO_LEGGINGS);
@@ -298,9 +300,11 @@ public class ItemTagGenerator extends FabricTagProvider.ItemTagProvider {
           .add(ToolsContent.JETPACK)
           .add(ToolsContent.JETPACK_ELYTRA)
           .add(ToolsContent.JETPACK_EXO_ELYTRA)
+          .add(ToolsContent.REINFORCED_JETPACK_EXO_ELYTRA)
           .add(ToolsContent.EXO_JETPACK)
           .add(ToolsContent.REINFORCED_EXO_JETPACK)
-          .add(ToolsContent.EXO_CHESTPLATE);
+          .add(ToolsContent.EXO_CHESTPLATE)
+          .add(ToolsContent.REINFORCED_EXO_CHESTPLATE);
         getOrCreateTagBuilder(ItemTags.LEG_ARMOR)
           .add(ToolsContent.EXO_LEGGINGS)
           .add(ToolsContent.REINFORCED_EXO_LEGGINGS);
